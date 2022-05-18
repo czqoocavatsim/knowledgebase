@@ -1,0 +1,35 @@
+# Project Information
+site_name: Gander Oceanic Knowledge Base
+site_url: https://knowledgebase.ganderoceanic.ca
+edit_uri: "" #removes edit button and icon
+copyright: Copyright (C) Gander Oceanic OCA 2018-2022. All Rights Reserved. Not to be used for real world navigation. Flight simulation only.
+
+# Configuration
+theme:
+  name: material
+  font:
+    text: Mulish
+  palette:
+    scheme: czqo
+  logo: https://cdn.ganderoceanic.ca/resources/media/img/brand/sqr/ZQO_SQ_TSPWHITE.png
+  features:
+    # Temporarily deactivated to provide support for Discord browser + anchor links
+    - navigation.instant
+    - navigation.top
+    - navigation.tracking
+    - navigation.sections
+    - search.suggest
+    - search.highlight
+    - search.share
+  favicon: https://cdn.ganderoceanic.ca/resources/media/img/brand/sqr/ZQO_SQ_TSPBLUE.png
+
+extra_css:
+  - stylesheets/czqo.css
+
+extra:
+  social:
+    - icon: fontawesome/brands/twitter 
+      link: https://twitter.com/czqoocavatsim
+    - icon: material/home
+      link: https://ganderoceanic.ca
+      name: Gander Oceanic main website 
