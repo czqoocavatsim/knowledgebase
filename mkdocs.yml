@@ -33,3 +33,7 @@ extra:
     - icon: material/home
       link: https://ganderoceanic.ca
       name: Gander Oceanic main website 
+
+markdown_extensions:
+  - attr_list
+  - md_in_html
