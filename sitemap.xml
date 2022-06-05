@@ -6,12 +6,72 @@
          <changefreq>daily</changefreq>
     </url>
     <url>
+         <loc>https://knowledgebase.ganderoceanic.ca/atc/clearances/</loc>
+         <lastmod>2022-06-05</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://knowledgebase.ganderoceanic.ca/atc/hf-radio/</loc>
+         <lastmod>2022-06-05</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://knowledgebase.ganderoceanic.ca/atc/pos-reps/</loc>
+         <lastmod>2022-06-05</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://knowledgebase.ganderoceanic.ca/atc/revisions/</loc>
+         <lastmod>2022-06-05</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://knowledgebase.ganderoceanic.ca/atc/selcal/</loc>
+         <lastmod>2022-06-05</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://knowledgebase.ganderoceanic.ca/basics/airspace/</loc>
+         <lastmod>2022-06-05</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://knowledgebase.ganderoceanic.ca/basics/first-principles/</loc>
+         <lastmod>2022-06-05</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://knowledgebase.ganderoceanic.ca/basics/flight-plan/</loc>
+         <lastmod>2022-06-05</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://knowledgebase.ganderoceanic.ca/basics/nats/</loc>
+         <lastmod>2022-06-05</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://knowledgebase.ganderoceanic.ca/basics/slop/</loc>
+         <lastmod>2022-06-05</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
          <loc>https://knowledgebase.ganderoceanic.ca/nattrak/receiving-your-clearance/</loc>
          <lastmod>2022-06-05</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://knowledgebase.ganderoceanic.ca/nattrak/requesting-oceanic-clearance/</loc>
+         <lastmod>2022-06-05</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://knowledgebase.ganderoceanic.ca/website/myczqo/</loc>
+         <lastmod>2022-06-05</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://knowledgebase.ganderoceanic.ca/website/training-admin-guide/</loc>
          <lastmod>2022-06-05</lastmod>
          <changefreq>daily</changefreq>
     </url>
