@@ -2,12 +2,17 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
     <url>
          <loc>https://knowledgebase.ganderoceanic.ca/</loc>
-         <lastmod>2022-05-19</lastmod>
+         <lastmod>2022-06-05</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://knowledgebase.ganderoceanic.ca/nattrak/receiving-your-clearance/</loc>
+         <lastmod>2022-06-05</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://knowledgebase.ganderoceanic.ca/nattrak/requesting-oceanic-clearance/</loc>
-         <lastmod>2022-05-19</lastmod>
+         <lastmod>2022-06-05</lastmod>
          <changefreq>daily</changefreq>
     </url>
 </urlset>
