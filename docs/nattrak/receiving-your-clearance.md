@@ -44,7 +44,7 @@ The voice format below that represents the usual voice formats as per [Getting Y
 
 Sometimes ATC may issue a restriction on your clearance or change an element of it for traffic or separation reasons. For example:
 
-![screenshot_2022-03-27_170459.png](/screenshot_2022-03-27_170459.png)
+![screenshot_2022-03-27_170459.png](/assets/nattrak/screenshot_2022-03-27_170459.png)
 
 In this scenario, Santa Maria (LPPO) has issued you a clearance but with several changes/restrictions. Of course usually there wouldn't be so many!
 
