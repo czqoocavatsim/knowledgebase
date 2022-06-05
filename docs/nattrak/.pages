@@ -1,3 +1,4 @@
 title: natTrak
 nav:
-	- requesting-oceanic-clearance
+    - Requesting oceanic clearance: requesting-oceanic-clearance.md
+    - Receiving oceanic clearance: receiving-oceanic-clearance.md
