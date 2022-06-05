@@ -56,6 +56,16 @@
          <changefreq>daily</changefreq>
     </url>
     <url>
+         <loc>https://knowledgebase.ganderoceanic.ca/nattrak/issuing-clx/</loc>
+         <lastmod>2022-06-05</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://knowledgebase.ganderoceanic.ca/nattrak/pending-rcl-messages/</loc>
+         <lastmod>2022-06-05</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
          <loc>https://knowledgebase.ganderoceanic.ca/nattrak/receiving-your-clearance/</loc>
          <lastmod>2022-06-05</lastmod>
          <changefreq>daily</changefreq>
