@@ -9,6 +9,7 @@ plugins:
   - search
   - awesome-pages
   - git-revision-date-localized
+  - mike
   
 # Configuration
 theme:
@@ -39,6 +40,9 @@ extra:
     - icon: material/home
       link: https://ganderoceanic.ca
       name: Gander Oceanic main website 
+  version:
+    provider: mike
+
 
 markdown_extensions:
   - attr_list
