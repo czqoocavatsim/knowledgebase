@@ -10,6 +10,7 @@ plugins:
   - awesome-pages
   - git-revision-date-localized
   - mike
+
   
 # Configuration
 theme:
@@ -47,6 +48,9 @@ extra:
 markdown_extensions:
   - attr_list
   - md_in_html
+  - admonition
+  - pymdownx.details
+  - pymdownx.superfences
 
 repo_url: https://github.com/czqoocavatsim/knowledgebase
 repo_name: czqoocavatsim/knowledgebase
