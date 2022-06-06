@@ -1,0 +1,6 @@
+nav:
+    - Start here: index.md
+    - The basics: basics
+    - Talking to ATC: atc
+    - natTrak usage: nattrak
+    - Hoppie's usage: cpdlc.md
