@@ -127,10 +127,10 @@ That's it.
 
 To open other tabs, Right click the top bar of the primary window.
 
-you will be displayed with
-    -`Current Msgs`
-    -`Planes online`
-    -`TELEX`
+you will be displayed with;
+-    `Current Msgs`
+-    `Planes online`
+-    `TELEX`
 
 #### Planes online
 planes online gives you a list of aircraft which have logged onto CPDLC. You may start a CPDLC uplink to an callsign by left clicking on them. If for some reason you need to manually log an aircraft on, you may add their callsign in the box down the bottom.
