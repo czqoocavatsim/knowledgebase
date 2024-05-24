@@ -1,10 +1,10 @@
 # PAGE UPDATE WIP
-## Prerequisites
+# Prerequisites
 1. For the use of CPDLC on the network, one requires a Hoppies acars account. [Registration](https://hoppie.nl/acars/system/register.html)
 
 2. TOPSKY plugin for euroscope OR standalone CPDLC client for VATSYS (further info bellow)
 
-## TOPSKY plugin setup
+# TOPSKY plugin setup
 Once connected to the netowork, you wish to provide a CPDLC service, assuming you're using the Gander Sector files, you're 90% of the way there!
 
 For CPDLC logon locate TOPSKY Menu bar (grey one with time on left). Navigate `Setup > CPDLC Setting...`
@@ -19,7 +19,7 @@ Place your Hoppie logon code (*you will have recived this via email upon regeste
 
 That's it, you're ready to provide a CPDLC service.
 
-### Accepting logons and reviewing messages
+## Accepting logons and reviewing messages
 
 You May start hearing a new noise once you annouce your CPDLC capability and aircraft may have flashing [] either side of their callsign, not to stress. Navigate to ***Tools > CPDLC > Current Messages***
 
@@ -31,7 +31,7 @@ you may ocasionally get freetext messages that WILL let you respond to them here
 
 Don't forget to Archive messages once they are no longer needed to ensure you can maintain situational awareness.
 
-### Logged on Aircraft
+## Logged on Aircraft
 
 Once an aircraft is logged on their callsign will have solid [] square brakets (as shown bellow). This means they are logged on to CPDLC and will recive every intruction you add to their tag, eg updating their mach or FL. 
 
@@ -44,7 +44,7 @@ Don't stress!! This can be prevented! with a CPDLC logged on aircraft, you will 
 
 <img width="80" alt="Screenshot 2024-05-16 165814" src="https://github.com/czqoocavatsim/knowledgebase/assets/169089251/3542c813-946c-4d27-8ddf-e289c39f8b02">
 
-### CPDLC Mach and FL instructions?
+## CPDLC Mach and FL instructions?
 
 Once you've sent a CPDLC instruction to climb/descend or change MACH a set for square brakets [] will appear around the info in Blue. <img width="80" alt="Screenshot 2024-05-16 165825" src="https://github.com/czqoocavatsim/knowledgebase/assets/169089251/e774b239-8337-4768-870e-17ea904d1361"> 
 Once the pilot responds with `WILCO` to the instruction, the brakets will go away. 
@@ -55,7 +55,7 @@ In the event the pilot takes too long to respond the uplink will go brown on bot
 <img width="80" alt="Screenshot 2024-05-16 170027" src="https://github.com/czqoocavatsim/knowledgebase/assets/169089251/bac267e4-ae7e-442b-995d-8c49ebc830ef">
 <img width="250" alt="Screenshot 2024-05-16 170034" src="https://github.com/czqoocavatsim/knowledgebase/assets/169089251/5f2dbed0-dbbc-432a-888e-52fdc621e4e6">
 
-### Free text messages?
+## Free text messages?
 
 Sadly unlike the pilots we're unable to send "free text" although we are teased with the idea. To send a "free text" message to inform the pilot of something, click on the tag callsign. 
 > [!NOTE]
@@ -65,7 +65,7 @@ Click the `CPDLC Free Text` option. which provide a series of suggested messages
 <img width="100" alt="Screenshot 2024-05-16 165941" src="https://github.com/czqoocavatsim/knowledgebase/assets/169089251/98b58b67-d73f-41f9-b178-bf26f55c2986">
 <img width="316" alt="Screenshot 2024-05-16 165956" src="https://github.com/czqoocavatsim/knowledgebase/assets/169089251/f85319c4-f131-4e02-8e28-afb35a2c4c64">
 
-### Ending a CPDLC service
+## Ending a CPDLC service
 
 Handing the aircraft off to unicom via CPDLC is the most underwhelming to do it, how ever if work load dictates it's easier then send it. you can find the option of unicom statments above. 
 Once the Aircraft has responded to the handoff statment **AND NOT BEFORE TO PREVENT RECIVING AN UPLINK ERROR** you may click the `END CPDLC` button free the aircraft. This will remove the logon and return the aircraft to lonley com.
@@ -74,21 +74,21 @@ Once the Aircraft has responded to the handoff statment **AND NOT BEFORE TO PREV
 
 and you can continue with Rulling one of the 7 seas. well, ocean.
 
-## VATSYS / Standalone Client
-### Download
+# VATSYS / Standalone Client
+## Download
 
 Unlike Euroscope, VATSYS doesn't (at time of writing) have any working plugin for hoppies ACARS, so we have to use the Standalone Client. 
-[Download Hoppies](https://hoppie.nl/acars/prg/atc/acarsatc-1.5.1-install.exe){ .md-button }
+[Download Hoppies](https://hoppie.nl/acars/prg/atc/acarsatc-1.5.1-install.exe)
 
 When running the installer, note where you install it as you will need to refrence this as we get you setup. The Defualt location is `C:\Program Files (x86)\Hoppie\ACARS-ATC`
 
-### Setup and Config
+## Setup and Config
 Unless you would like to keep the Roadrunner noise as your notification you're going to need to download new .wav Files, these may be what ever you like, how ever here are our suggested ones. 
-[Download Audio Files](https://www.temporary-url.com/8BD8B){ .md-button }
+[Download Audio Files](https://ganderoceanic.ca/ACARS_AUDIO.zip)
 > NOTE THIS LINK WILL BE PROVIDED BY MUFASSIL
 
 You will also need an "Uplink" file which specifies what messages you can send and what pilots can respond with. **This File is NOT optional for Gander CPDLC**
-[Download Uplink Files](https://www.temporary-url.com/8BD8B){ .md-button }
+[Download Uplink Files](https://ganderoceanic.ca/NAT_Plus_Uplink.zip)
 
 Once you have these files downloaded let's place them in the right location. 
 
@@ -98,7 +98,7 @@ Copy both the Audio files to (defualt location) `C:\Program Files (x86)\Hoppie\A
 
 For the Uplink file. Place it in (deualt location) `C:\Program Files (x86)\Hoppie\ACARS-ATC\uplink` This MAY be empty be defualt.
 
-#### Finally, it's time to open the software
+### Finally, it's time to open the software
 
 With the client open, click `File -> Setup...` This will open the CPDLC setup window. now, unlike Euroscope, we only need to enter the ACARS (hoppies) Logon code once. So, pull the logon code from your email and place it in the `ACARS Logon` box. 
 >[!IMPORTANT]
@@ -110,7 +110,7 @@ Just repeate the same for both Audio files, our audio files have been named acco
 
 Now you're ready to connect.
 
-### getting connected
+## getting connected
 Fill your "ATC Callsign" with the correct logon code. refer [ATC LOGON CODES] for relevent codes.
 > [!NOTE]
 > you will only need to input your ACARS code once. AND the client will attempt to log you in as your last callsign upon opening
@@ -132,14 +132,14 @@ you will be displayed with;
 -    `Planes online`
 -    `TELEX`
 
-#### Planes online
+### Planes online
 planes online gives you a list of aircraft which have logged onto CPDLC. You may start a CPDLC uplink to an callsign by left clicking on them. If for some reason you need to manually log an aircraft on, you may add their callsign in the box down the bottom.
 > [!NOTE]
 > It is common for planes to not respond with a "logoff" statment when you log them off, so they will remain in the list. At the time of writing there is no known way to remove said aircraft.
 
 If a callsign turns yellow it means the recipient is no longer on the HOPPIES ACARS network. You may disregard this callsign.
 
-#### TELEX
+### TELEX
 
 Where all your sent and recived telex's can be found.
 
@@ -151,10 +151,41 @@ Telex can be sent in a similar, with the callsign in the `To:` box, write the te
 
 All previously sent TELEXs will sit in `TELEX Uplinks`
 
-#### Current Msgs
+### Current Msgs
 
+Shockingly, Current messages provide you with a view of all your current messages. There are 4 different colours found in the current messages window.
 
-## Further reading
+#### Green, interactable text. 
+(left click to open a menu) options are as follows;
+
+-   `STANDBY` (sends this plain text, Will leave the message green for you to interact with again when you get a chance.)
+-   `ACCEPT LOGON` (this option only appears when you're interacting with a CPDLC logon request. This will add the callsign to your planes online window and log their aircraft onto your CPDLC.)
+-   `Editor...` (opens the CPDLC editor so you may respond. This message will remain green untill a reponse is sent.)
+-   `REQEST DEFFERED` (sends the plain text. Provides no explination, ideally you'll clarify with voice.)
+-   `UNABLE` (sends plain text. Provides no explination.)
+-   `UNABLE DUE TRAFFIC` (sends plain text.)
+-   `UNABLE DUE AIRSPACE` (sends plain text.)
+
+#### Cream, intereacted messages.
+
+This message *MAY* have been a blue message. If it was it will now be accompanied with a Blue message or a second cream message.
+You have no further need to see cream messages and may delete/remove them by right clicking.
+
+#### Blue, Uplink Message
+
+A blue message is one YOU sent, this will be awaiting a reply... Once it has turned Creame it may be removed. DO NOT delete a blue message before hand. (unless control sesion over)
+
+#### Black, A reply
+Simply, a Black message is a reply to your message. usually consisting of "WILCO, ROGER, UNABLE" etc.
+
+#### Sumary
+Green, left click to reply.
+
+Blue, DO NOT REMOVE
+ 
+Cream and Black. Complete messages, remove with right click.   
+ 
+# Further reading
 [Hoppie's ATC client information](https://www.hoppie.nl/acars/prg/atc/)  
 [Message log](https://www.hoppie.nl/acars/system/log.html)  
 [Stations online](https://www.hoppie.nl/acars/system/online.html)
