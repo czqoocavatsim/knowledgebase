@@ -13,7 +13,6 @@ Thank you to the following people for their contributions to this wiki:
 - Andrew Ogden
 - Chriss Klosowski
 - Liesel Downes
-- David Solesvik
 
 [Gander Oceanic Website](https://ganderoceanic.ca){ .md-button .md-button--primary }
 
