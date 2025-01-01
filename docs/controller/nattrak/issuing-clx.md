@@ -9,13 +9,8 @@ dateCreated: 2022-03-27T06:58:44.901Z
 ---
 
 > Guidance for oceanic ATC only.
-
-<!-- ![screenshot_2022-03-27_172249.png](/assets/nattrak/screenshot_2022-03-27_172249.png) -->
-
-<figure markdown>
-![YPAD Maneuvering Area Responsibility](/assets/nattrak/screenshot_2022-03-27_172249.png){ width="500" }
-  <figcaption>YPAD Maneuvering Area Responsibility</figcaption>
-</figure>
+> 
+![screenshot_2022-03-27_172249.png](/assets/nattrak/screenshot_2022-03-27_172249.png)
 
 ## Request Data
 
