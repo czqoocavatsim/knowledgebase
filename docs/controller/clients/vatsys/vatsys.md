@@ -1,5 +1,6 @@
-# Vatsys basics
-# Under initial writing
+
+# vatSys basics
+Under initial writing
 
 ## Selecting a profile
 If it is your first time using VATSYS it should open a page looking like this 
@@ -8,6 +9,7 @@ If it is your first time using VATSYS it should open a page looking like this
 ![Profile Selction](/controller/img/vatsysprofileselect.png){ width="250" }
   <figcaption>Profile selection window</figcaption>
 </figure>
+
 Simply double click on the NAT profile 
 
 If a profile (eg Australia) has loaded up, to change profile, simply click `Settings > Change profile.  to bring up profile selection menu above
