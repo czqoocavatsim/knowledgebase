@@ -1,5 +1,4 @@
 nav:
     - natTrak information: nattrak
-    - Euroscope Client: euroscope
-    - VATSYS: vatsys.md
+    - Controller Client: clients
     - Hoppie's information: cpdlc.md
