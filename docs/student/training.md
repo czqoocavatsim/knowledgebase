@@ -5,10 +5,10 @@ Our process is quite simple for an Endorsement, as you have already attained the
 
 1. Application for Endorsement
 <br><small>
-
+The first step in your training is to apply to gain the endorsement. A response can take up to three days, so we recommend you take this time to prepare for the Exam which you will need to do, by reviewing all of our ATC.
 </small>
 
-1. Exam Preparation
+2. Exam Preparation
 <br><small>
 
 </small>
