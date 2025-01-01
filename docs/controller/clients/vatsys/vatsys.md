@@ -12,26 +12,36 @@ If it is your first time using VATSYS it should open a page looking like this
 
 Simply double click on the NAT profile 
 
-If a profile (eg Australia) has loaded up, to change profile, simply click `Settings > Change profile.  to bring up profile selection menu above
-Selecting your Position
-	Your position selection sets your sectors and vis points for you ready to connect. To select a profile simply click, Settings > Position > Position you wish to control. You’re welcome to change this, just note that your sectors, vis points and callsign will not change automatically.
+If a profile (eg Australia) has loaded up, to change profile, simply click <br> ``Settings > Change profile``. <br>  to bring up profile selection menu: 
+<figure markdown>
+![Profile Selction](/controller/img/vatsyschangeprofile.png){ width="250" }
+</figure>
+
+## Selecting your Position
+
+Your position selection sets your sectors and vis points for you ready to connect. To select a profile simply click, <br> ``Settings > Position > Position`` <br> then chose the position you wish to control.
+> Note:
+if you change this while controlling it will only move your camera/home view.
 
 ## Connection Window
-
-
-
-Callsign will auto-fill, based on your select position, however a drop down of callsigns will appear. Note, not all callsigns that may appear here are allowed to be controlled by CZQO rated controllers.
-
+<figure markdown>
+![Profile Selction](/controller/img/vatsysconnectionwindow.png){ width="500" }
+  <figcaption>Connection Window</figcaption>
+</figure>
+Callsign will auto-fill, based on your select position, however a drop down of callsigns will appear. IMPORTANT, not all callsigns that may appear here are allowed to be controlled by CZQO rated controllers.
 
 Range is set automatically and is strongly encouraged you do not change. This as well is based on the position you chose.
 
+Controller info is set as you’re expected to control with. You’re more than welcome to add to it, however avoid removing critical info. 
+> NOTE: At time of writing CPDLC is not available on VATSYS and is therefore N/A. If you decide to use an external CPDLC client you’re welcome to add the correct CPDLC loggon code into your controller info.
 
-Controller info is set as you’re expected to control with. You’re more than welcome to add to it, however avoid removing critical info. NOTE: At time of writing CPDLC is not available on VATSYS and is therefore N/A. If you decide to use an external CPDLC client you’re welcome to add the correct CPDLC loggon code into your controller info.
-
-VSCS Window
-	Who on earth wants to have to open an extra client just for audio??
-	
-	The VSCS window covers all your audio, coordination, and frequency needs.
+## VSCS Window
+Who on earth wants to have to open an extra client just for audio??
+<figure markdown>
+![Profile Selction](/controller/img/vatsysvscswindow.png){ width="500" }
+  <figcaption>VSCS Window Setup tab</figcaption>
+</figure>
+The VSCS window covers all your audio, coordination, and frequency needs.
 Setup Tab
 
 	This is where you can add freqs (note your freq becomes “primed” when you receive on it), mute your co-ord (mute input) send audio to speakers (if you have them setup and need to dash away for any reason) and open your audio settings. NOTE: push to talk by default is left shift and can be adjusted in settings>keyboard.
