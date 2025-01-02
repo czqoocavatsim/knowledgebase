@@ -31,6 +31,11 @@
          <changefreq>daily</changefreq>
     </url>
     <url>
+         <loc>https://knowledgebase.ganderoceanic.ca/controller/clients/vatSys/vatsysnatprofile/</loc>
+         <lastmod>2025-01-02</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
          <loc>https://knowledgebase.ganderoceanic.ca/controller/nattrak/issuing-clx/</loc>
          <lastmod>2025-01-02</lastmod>
          <changefreq>daily</changefreq>
