@@ -1,0 +1,5 @@
+nav:
+    # - Overview: overview.md
+    - Pending Clearances Table: pending-rcl-messages.md
+    - Checking Oceanic Clearances: issuing-clx.md
+    - Issuing Manual Clearance: manual-clx.md
