@@ -12,7 +12,7 @@ If it is your first time using VATSYS it should open a page looking like this
 
 Simply double click on the NAT profile 
 
-If a profile (eg Australia) has loaded up, to change profile, simply click <br> ``Settings > Change profile``. <br>  to bring up profile selection menu: 
+If a profile (e.g. Australia) has loaded up, to change profile, simply click <br> ``Settings > Change profile``. <br>  to bring up profile selection menu: 
 <figure markdown>
 ![Profile Selction](/controller/img/vatsyschangeprofile.png){ width="250" }
 </figure>
