@@ -16,7 +16,7 @@
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://knowledgebase.ganderoceanic.ca/controller/clients/Hoppie%27s%20ACARS/Standalone/</loc>
+         <loc>https://knowledgebase.ganderoceanic.ca/controller/clients/hoppies/</loc>
          <lastmod>2025-01-02</lastmod>
          <changefreq>daily</changefreq>
     </url>
@@ -26,12 +26,7 @@
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://knowledgebase.ganderoceanic.ca/controller/clients/vatsys/vatsysbasics/</loc>
-         <lastmod>2025-01-02</lastmod>
-         <changefreq>daily</changefreq>
-    </url>
-    <url>
-         <loc>https://knowledgebase.ganderoceanic.ca/controller/clients/vatsys/vatsysnatprofile/</loc>
+         <loc>https://knowledgebase.ganderoceanic.ca/controller/clients/vatSys/vatsysbasics/</loc>
          <lastmod>2025-01-02</lastmod>
          <changefreq>daily</changefreq>
     </url>
