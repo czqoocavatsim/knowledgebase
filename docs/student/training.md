@@ -13,17 +13,17 @@ The first step in your training is to apply to gain the endorsement. A response 
 
 </small>
 
-1. Undertaking the Exam
+3. Undertaking the Exam
 <br><small>
 
 </small>
 
-1. Preparation for Practical Training
+4. Preparation for Practical Training
 <br><small>
 
 </small>
 
-1. Network Session with Instructor
+5. Network Session with Instructor
 <br><small>
 
 </small>
