@@ -1,9 +1,7 @@
 # Project Information
 site_name: Gander OCA Knowledge Base [UNDER REDEVELOPMENT]
 site_url: https://knowledgebase.ganderoceanic.ca
-site_author: Andrew Ogden, Chriss Klosowski & Liesel Downes
-edit_uri: edit/main/docs/
-copyright: Copyright (C) Gander Oceanic OCA 2018-2022. All Rights Reserved. Not to be used for real world navigation. Flight simulation only.
+copyright: Copyright (C) Gander Oceanic OCA 2018-2025. All Rights Reserved. Not to be used for real world navigation. Flight simulation only.
 
 
 plugins:
@@ -30,7 +28,7 @@ theme:
     - search.suggest
     - search.highlight
     - search.share
-  favicon: https://cdn.ganderoceanic.ca/resources/media/img/brand/sqr/ZQO_SQ_TSPBLUE.png
+  favicon: https://ganderoceanic.ca/assets/resources/media/img/brand/sqr/ZQO_SQ_TSPWHITE.png
 
 extra_css:
   - stylesheets/czqo.css
