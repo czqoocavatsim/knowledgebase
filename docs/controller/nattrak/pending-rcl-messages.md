@@ -24,4 +24,4 @@ The Table will show
 * Auto Acknowledge - Has an Auto Clearance been issued?
 
 ## Reviewing Clearances
-View issuing clearance page. [Issuing clearances.](/controller/nattrak/issuing-clx)
+View reissuing clearance page. [Issuing clearances.](/controller/nattrak/issuing-clx)
