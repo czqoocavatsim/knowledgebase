@@ -1,6 +1,6 @@
 
 # vatSys basics
-Under initial writing
+This page will get you connected and understand the basics of vatsys, all with refrence to our NAT profile.
 
 ## Selecting a profile
 If it is your first time using VATSYS it should open a page looking like this 
@@ -119,5 +119,8 @@ Once on the handoff menu, the suggested sector will be highlighted and once youâ
 
 ## Info Maps
 there are multiple maps you can toggle in maps menu up top. As shown below the active ones automatically appear and are selected in black.
-
-
+<figure markdown>
+![Profile Selction](/controller/img/vatsysmaps.png){ width="500" }
+  <figcaption>Maps drop down</figcaption>
+</figure>
+Chop and change these to your hearts content!
