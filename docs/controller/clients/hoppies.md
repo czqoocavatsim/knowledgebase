@@ -1,4 +1,5 @@
-# Standalone Client
+# Standalone ACARS Client
+
 ## Prerequisites
 1. For the use of CPDLC on the network, one requires a Hoppies acars account. [Registration](https://hoppie.nl/acars/system/register.html)
 

@@ -2,6 +2,5 @@ nav:
     # - Knowledgebase Usage: index.md
     - Pilots: pilots
     - Controllers: controller
-    - Student Training: student
-    - Gander Oceanic Website: website
-    # - More Resources: more-resources.md
+    # - Student Training: student
+    - Additional Resources: misc
