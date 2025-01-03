@@ -2,157 +2,167 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
     <url>
          <loc>https://knowledgebase.ganderoceanic.ca/</loc>
-         <lastmod>2025-01-02</lastmod>
+         <lastmod>2025-01-03</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://knowledgebase.ganderoceanic.ca/more-resources/</loc>
-         <lastmod>2025-01-02</lastmod>
+         <lastmod>2025-01-03</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://knowledgebase.ganderoceanic.ca/controller/</loc>
+         <lastmod>2025-01-03</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://knowledgebase.ganderoceanic.ca/controller/cpdlc/</loc>
-         <lastmod>2025-01-02</lastmod>
+         <lastmod>2025-01-03</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://knowledgebase.ganderoceanic.ca/controller/clients/hoppies/</loc>
-         <lastmod>2025-01-02</lastmod>
+         <lastmod>2025-01-03</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://knowledgebase.ganderoceanic.ca/controller/clients/euroscope/cpdlc/</loc>
-         <lastmod>2025-01-02</lastmod>
+         <lastmod>2025-01-03</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://knowledgebase.ganderoceanic.ca/controller/clients/vatSys/vatsysbasics/</loc>
-         <lastmod>2025-01-02</lastmod>
+         <loc>https://knowledgebase.ganderoceanic.ca/controller/clients/vatsys/vatsysadvanced/</loc>
+         <lastmod>2025-01-03</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://knowledgebase.ganderoceanic.ca/controller/clients/vatSys/vatsysnatprofile/</loc>
-         <lastmod>2025-01-02</lastmod>
+         <loc>https://knowledgebase.ganderoceanic.ca/controller/clients/vatsys/vatsysbasics/</loc>
+         <lastmod>2025-01-03</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://knowledgebase.ganderoceanic.ca/controller/clients/vatsys/vatsysnatprofile/</loc>
+         <lastmod>2025-01-03</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://knowledgebase.ganderoceanic.ca/controller/nattrak/issuing-clx/</loc>
-         <lastmod>2025-01-02</lastmod>
+         <lastmod>2025-01-03</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://knowledgebase.ganderoceanic.ca/controller/nattrak/manual-clx/</loc>
-         <lastmod>2025-01-02</lastmod>
+         <lastmod>2025-01-03</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://knowledgebase.ganderoceanic.ca/controller/nattrak/overview/</loc>
-         <lastmod>2025-01-02</lastmod>
+         <lastmod>2025-01-03</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://knowledgebase.ganderoceanic.ca/controller/nattrak/pending-rcl-messages/</loc>
-         <lastmod>2025-01-02</lastmod>
+         <lastmod>2025-01-03</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://knowledgebase.ganderoceanic.ca/misc/</loc>
-         <lastmod>2025-01-02</lastmod>
+         <lastmod>2025-01-03</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://knowledgebase.ganderoceanic.ca/misc/discord/</loc>
-         <lastmod>2025-01-02</lastmod>
+         <lastmod>2025-01-03</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://knowledgebase.ganderoceanic.ca/misc/myczqo/</loc>
-         <lastmod>2025-01-02</lastmod>
+         <lastmod>2025-01-03</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://knowledgebase.ganderoceanic.ca/misc/training-admin-guide/</loc>
-         <lastmod>2025-01-02</lastmod>
+         <lastmod>2025-01-03</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://knowledgebase.ganderoceanic.ca/pilots/</loc>
-         <lastmod>2025-01-02</lastmod>
+         <lastmod>2025-01-03</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://knowledgebase.ganderoceanic.ca/pilots/cpdlc/</loc>
-         <lastmod>2025-01-02</lastmod>
+         <lastmod>2025-01-03</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://knowledgebase.ganderoceanic.ca/pilots/atc/clearances/</loc>
-         <lastmod>2025-01-02</lastmod>
+         <lastmod>2025-01-03</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://knowledgebase.ganderoceanic.ca/pilots/atc/hf-radio/</loc>
-         <lastmod>2025-01-02</lastmod>
+         <lastmod>2025-01-03</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://knowledgebase.ganderoceanic.ca/pilots/atc/pos-reps/</loc>
-         <lastmod>2025-01-02</lastmod>
+         <lastmod>2025-01-03</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://knowledgebase.ganderoceanic.ca/pilots/atc/revisions/</loc>
-         <lastmod>2025-01-02</lastmod>
+         <lastmod>2025-01-03</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://knowledgebase.ganderoceanic.ca/pilots/atc/selcal/</loc>
-         <lastmod>2025-01-02</lastmod>
+         <lastmod>2025-01-03</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://knowledgebase.ganderoceanic.ca/pilots/basics/airspace/</loc>
-         <lastmod>2025-01-02</lastmod>
+         <lastmod>2025-01-03</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://knowledgebase.ganderoceanic.ca/pilots/basics/first-principles/</loc>
-         <lastmod>2025-01-02</lastmod>
+         <lastmod>2025-01-03</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://knowledgebase.ganderoceanic.ca/pilots/basics/flight-plan/</loc>
-         <lastmod>2025-01-02</lastmod>
+         <lastmod>2025-01-03</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://knowledgebase.ganderoceanic.ca/pilots/basics/nats/</loc>
-         <lastmod>2025-01-02</lastmod>
+         <lastmod>2025-01-03</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://knowledgebase.ganderoceanic.ca/pilots/basics/slop/</loc>
-         <lastmod>2025-01-02</lastmod>
+         <lastmod>2025-01-03</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://knowledgebase.ganderoceanic.ca/pilots/nattrak/receiving-your-clearance/</loc>
-         <lastmod>2025-01-02</lastmod>
+         <lastmod>2025-01-03</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://knowledgebase.ganderoceanic.ca/pilots/nattrak/requesting-oceanic-clearance/</loc>
-         <lastmod>2025-01-02</lastmod>
+         <lastmod>2025-01-03</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://knowledgebase.ganderoceanic.ca/student/training/</loc>
-         <lastmod>2025-01-02</lastmod>
+         <lastmod>2025-01-03</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://knowledgebase.ganderoceanic.ca/student/resources/policies/</loc>
-         <lastmod>2025-01-02</lastmod>
+         <lastmod>2025-01-03</lastmod>
          <changefreq>daily</changefreq>
     </url>
 </urlset>
