@@ -178,3 +178,7 @@ Weather you’re filling a pilot generated SELCAL or Generating one for them you
 ![Profile Selction](/controller/img/vatsysflightplanselcal.png){ width="350" }
   <figcaption>Track Info Window</figcaption>
 </figure>	
+
+## Further Reading
+[Nat Profile](/controller/clients/vatsys/vatsysbasics) <br>
+[vatSys Advanced](/controller/clients/vatsys/vatsysadvanced)

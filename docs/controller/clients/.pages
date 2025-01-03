@@ -1,3 +1,4 @@
 nav:
     - ...
+    - vatSys : vatsys
     - Hoppie's ACARS Client: hoppies.md
