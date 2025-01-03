@@ -1,3 +1,5 @@
 nav:
+    - Controller: index.md
+    # - SOPs and Phraseology: sopphraseology
     - Controller Client: clients
     - natTrak Website: nattrak
