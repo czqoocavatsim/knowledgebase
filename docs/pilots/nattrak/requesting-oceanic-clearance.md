@@ -4,7 +4,10 @@ natTrak allows you to request oceanic clearance when you are an active pilot on 
 As with all [oceanic clearances](/pilots/atc/clearances), be sure to submit your request at least 30 minutes prior to entry. If you submit it via natTrak **less than 15 minutes prior to entry**, it will not be possible to request clearance via the website and you will need to do so via voice.
 
 ## Notes Flying Oceanic
-There are a few different things to take into account when flying Oceanic 
+There are a few different things to take into account when flying Oceanic airspace:
+
+* Oceanic Controllers have ADS-B (Satalite Radar) capabilities, but they can not vector you. So you need to fly your route as cleared.
+* Your Simulator Time must be set to the correct time. You need this in order to correctly provide your entry time into the OCA.
 
 ## Accessing the oceanic clearance request page
 Log onto the [natTrak Website](https://nattrak.vatsim.net/) with your VATSIM Account. When logged on as a pilot on VATSIM, you will see a Navigation Bar with options to Request Clearance, as well as viewing a history of clearance message.
