@@ -1,4 +1,4 @@
 nav:
     - vatSys Basics: vatsysbasics.md
-    - vatSys Advanced : vatsysadvanced.md
     - NAT Profile: vatsysnatprofile.md
+    - vatSys Advanced : vatsysadvanced.md
