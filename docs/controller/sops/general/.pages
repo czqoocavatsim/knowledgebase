@@ -1,8 +1,8 @@
 nav:
     - General unit Operating Procedures: index.md
-    - INTRODUCTION: intro.md
-    - CHAPTER 1: chap1.md
-    - CHAPTER 2: chap2.md
-    - CHAPTER 3: chap3.md
-    - CHAPTER 4: chap4.md
-    - CHAPTER 5: chap5.md
+    - Introduction: intro.md
+    - Provision of Air Traffic Services: chap1.md
+    - Separation Standards: chap2.md
+    - Altimeter Setting Procedures and Meteorology: chap3.md
+    - General Coordination Regulation: chap4.md
+    - Route Structures: chap5.md
