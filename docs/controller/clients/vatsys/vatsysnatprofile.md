@@ -150,7 +150,7 @@ All clearances are currently done through the Nattrack.vatsim.net website. You c
 From there clicking the aircraft tag will take you to relevant pages correctly.
 
 ## Yellow Track Identifiers
-If you spot a Yellow Track identifier on a tag, this is an RCL sitting in the pending list awaiting your review. To clear it, go to the nattrack website and more to be processed.
+If you spot a Yellow Track identifier on a tag, this is an RCL sitting in the pending list awaiting your review. To clear it, click on the yellow idietifier to fo the the natracks website, move the RCL to processed.
 <figure markdown>
 ![Profile Selction](/controller/img/vatsysunowned.png){ width="150" }
   <figcaption>Example pending RCL</figcaption>
