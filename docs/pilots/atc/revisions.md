@@ -32,7 +32,7 @@ dateCreated: 2020-09-11T03:47:25.963Z
 <blockquote>
   <p><strong>CZQX_FSS:</strong> Gander Radio clears ACA123, climb FL340.</p>
 </blockquote>
-<p>Sometimes, the controller may ask the pilot to report when leaving their current flight level, and/or when reaching their cleared flight level. In this case, the pilot should report when they have commenced their climb/descent, or when they have reached their cleared level..</p>
+<p>Sometimes, the controller may ask the pilot to report when leaving their current flight level, and/or when reaching their cleared flight level. In this case, the pilot should report when they have commenced their climb/descent, or when they have reached their cleared level.</p>
 <blockquote>
   <p><strong>ACA123: </strong>Gander Radio, Air Canada 123, reached FL340.</p>
 </blockquote>
@@ -61,3 +61,4 @@ dateCreated: 2020-09-11T03:47:25.963Z
 
 ## Sources
 <p>NAT Document 007</p>
+

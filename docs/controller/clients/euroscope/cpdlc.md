@@ -15,7 +15,7 @@ A new window should have appeared, the `Login` box may have auto filled with the
 
 <img width="81" alt="image" src="https://github.com/czqoocavatsim/knowledgebase/assets/169089251/fa6e6702-e4e1-4310-8637-5a4bbe79f913">
 
-Place your Hoppie logon code (*you will have recived this via email upon regestering with hoppies*) Ensure you have Auto-accept logon **OFF** this will be on by deafult and may cause aircraft to logon without having made voice contact and selcal watch. The Rest of the settings are ideal as is.
+Place your Hoppie logon code (*you will have received this via email upon registering with hoppies*) Ensure you have Auto-accept logon **OFF** this will be on by default and may cause aircraft to logon without having made voice contact and selcal watch. The Rest of the settings are ideal as is.
 
 That's it, you're ready to provide a CPDLC service.
 
@@ -27,13 +27,13 @@ You May start hearing a new noise once you annouce your CPDLC capability and air
 <img width="187" alt="image" src="https://github.com/czqoocavatsim/knowledgebase/assets/169089251/ffaa8d3f-d20f-4848-a6b4-171ab1055a9a">
 
 A window like this will have appeared, you can interact with mesages by clicking on them. `ACCEPT` Means you will allow them to Logon, `UNABLE` Will deny the logon request. 
-you may ocasionally get freetext messages that WILL let you respond to them here. clickiing `REPLY` will allow you to write free text in the box, and dictate what repsonse you're allowing the pilot to give. Eg. "AFK approved, report back" with "Roger" as a response.
+you may occasionally get freetext messages that WILL let you respond to them here. clicking `REPLY` will allow you to write free text in the box, and dictate what response you're allowing the pilot to give. Eg. "AFK approved, report back" with "Roger" as a response.
 
 Don't forget to Archive messages once they are no longer needed to ensure you can maintain situational awareness.
 
 ## Logged on Aircraft
 
-Once an aircraft is logged on their callsign will have solid [] square brakets (as shown bellow). This means they are logged on to CPDLC and will recive every intruction you add to their tag, eg updating their mach or FL. 
+Once an aircraft is logged on their callsign will have solid [] square brakets (as shown bellow). This means they are logged on to CPDLC and will receive every intruction you add to their tag, eg updating their mach or FL. 
 
 <img width="100" alt="Screenshot 2024-05-16 165739" src="https://github.com/czqoocavatsim/knowledgebase/assets/169089251/766070db-d094-440c-9fba-d22a8dd3ff0e">
 
@@ -60,7 +60,7 @@ In the event the pilot takes too long to respond the uplink will go brown on bot
 Sadly unlike the pilots we're unable to send "free text" although we are teased with the idea. To send a "free text" message to inform the pilot of something, click on the tag callsign. 
 > [!NOTE]
 > (aircraft has to already be logged onto CPDLC)
-Click the `CPDLC Free Text` option. which provide a series of suggested messages includind AFK, the only response to an oceanic request, and some unicom handoff statments...
+Click the `CPDLC Free Text` option, which provides a series of suggested messages including AFK, the only response to an oceanic request, and some unicom handoff statements...
 
 <img width="100" alt="Screenshot 2024-05-16 165941" src="https://github.com/czqoocavatsim/knowledgebase/assets/169089251/98b58b67-d73f-41f9-b178-bf26f55c2986">
 <img width="316" alt="Screenshot 2024-05-16 165956" src="https://github.com/czqoocavatsim/knowledgebase/assets/169089251/f85319c4-f131-4e02-8e28-afb35a2c4c64">

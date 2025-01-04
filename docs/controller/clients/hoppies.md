@@ -40,7 +40,7 @@ Just repeate the same for both Audio files, our audio files have been named acco
 Now you're ready to connect.
 
 ## getting connected
-Fill your "ATC Callsign" with the correct logon code. refer [ATC LOGON CODES] for relevent codes.
+Fill your "ATC Callsign" with the correct logon code. refer [ATC LOGON CODES] for relevant codes.
 > [!NOTE]
 > you will only need to input your ACARS code once. AND the client will attempt to log you in as your last callsign upon opening
 
