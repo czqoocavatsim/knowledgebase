@@ -30,13 +30,10 @@ There are a variety of different alias commands which are avaiable for Oceanic C
 |.cpos| .msg $aircraft Hello, you are currently in oceanic airspace. Please contact me with your last position report on $freq. Thanks!|
 
 ## Oceanic Clearances
-
+Details for this are coming shortly.
 
 ## Ammended Oceanic Clearances
-
-.c Amended clearance. $radioname clears $aircraft, climb $alt.
-.df Amended clearance. $radioname clears $aircraft, descend $alt.
-.m Amended clearance. $radioname clears $aircraft, maintain Mach $1.
+Details for this are coming shortly.
 
 ## Position Reports
 | Shortcut| Message|
@@ -49,9 +46,10 @@ There are a variety of different alias commands which are avaiable for Oceanic C
 |.pr|$radioname copies $aircraft passing $2 at time $3, FL$4, estimating $5 at time $6, $7 thereafter|
 
 ## Change Levels
-
+Details for this are coming shortly.
 
 ## Handovers
+Details for this are coming shortly.
 
 ## Variables used within Messages
 | Variable | Function|
