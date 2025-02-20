@@ -66,14 +66,14 @@ All that is required is to have the track or strip selected. To select the track
 
 Similar to the above, Enter is the quick way to pickup a tag. Select the track or strip then simply hit enter and the tag is yours!
 
-### Camera - Right Click
+### View Point - Right Click
 
-Right Click can be used to set the precise location of where you want the camera. 
+Right Click can be used to set the precise location of where you want the view point. 
 Start by right clicking where you want the center of your screen to show. Then, move out to select how large you want the area.
 
-### Camera - MMB “peak”
+### View Point - MMB “peak”
 
-You can move your camera around freely with middle mouse held down. This allows you to peak your camera somewhere until you let go returning it back to the previous location.
+You can move your view point around freely with middle mouse held down. This allows you to peak your view point somewhere until you let go returning it back to the previous location.
 
 ### Tag/track Highlight
 You can highlight a tag/track for your attention later my ``middle clicking`` the track symbol.
