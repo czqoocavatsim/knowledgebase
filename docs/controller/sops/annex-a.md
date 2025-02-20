@@ -93,7 +93,7 @@ Time restrictions should not be applied unless required for separation. They sho
 | Shanwick Radio   | TOM124, Shanwick Radio, [at 45N contact Santa Maria on 132.075], standby for SELCAL check.    |
 | Shanwick Radio   | Selcal tone triggered                                                                         |
 | TOM124           | TOM124, SELCAL check OK.                                                                      |
-| Shanwick Radio   | Shanwick Radio.                                                                               |
+| Shanwick Radio   | TOM124, Maintain SELCAL Watch.                                                                              |
 
 ### 1.3.2 Non-ADS-B Equipped Aircraft (Position Reports)
 
