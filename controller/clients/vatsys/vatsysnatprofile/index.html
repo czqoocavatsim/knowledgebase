@@ -1,0 +1,2107 @@
+
+<!doctype html>
+<html lang="en" class="no-js">
+  <head>
+    
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width,initial-scale=1">
+      
+      
+      
+        <link rel="canonical" href="https://knowledgebase.ganderoceanic.ca/controller/clients/vatsys/vatsysnatprofile/">
+      
+      <link rel="icon" href="https://ganderoceanic.ca/assets/resources/media/img/brand/sqr/ZQO_SQ_TSPWHITE.png">
+      <meta name="generator" content="mkdocs-1.6.1, mkdocs-material-8.2.13">
+    
+    
+      
+        <title>NAT Profile - Gander OCA Knowledge Base</title>
+      
+    
+    
+      <link rel="stylesheet" href="../../../../assets/stylesheets/main.e411adfe.min.css">
+      
+        
+        <link rel="stylesheet" href="../../../../assets/stylesheets/palette.cc9b2e1e.min.css">
+        
+      
+    
+    
+    
+      
+        
+        
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Mulish:300,300i,400,400i,700,700i%7CRoboto+Mono:400,400i,700,700i&display=fallback">
+        <style>:root{--md-text-font:"Mulish";--md-code-font:"Roboto Mono"}</style>
+      
+    
+    
+      <link rel="stylesheet" href="../../../../stylesheets/czqo.css">
+    
+    <script>__md_scope=new URL("../../../..",location),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
+    
+      
+
+    
+    
+  </head>
+  
+  
+    
+    
+    
+    
+    
+    <body dir="ltr" data-md-color-scheme="czqo" data-md-color-primary="" data-md-color-accent="">
+  
+    
+    
+    <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
+    <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
+    <label class="md-overlay" for="__drawer"></label>
+    <div data-md-component="skip">
+      
+        
+        <a href="#nat-profile" class="md-skip">
+          Skip to content
+        </a>
+      
+    </div>
+    <div data-md-component="announce">
+      
+    </div>
+    
+      <div data-md-component="outdated" hidden>
+        <aside class="md-banner md-banner--warning">
+          
+        </aside>
+      </div>
+    
+    
+      
+
+  
+
+<header class="md-header md-header--lifted" data-md-component="header">
+  <nav class="md-header__inner md-grid" aria-label="Header">
+    <a href="../../../.." title="Gander OCA Knowledge Base" class="md-header__button md-logo" aria-label="Gander OCA Knowledge Base" data-md-component="logo">
+      
+  <img src="https://ganderoceanic.ca/assets/resources/media/img/brand/sqr/ZQO_SQ_TSPWHITE.png" alt="logo">
+
+    </a>
+    <label class="md-header__button md-icon" for="__drawer">
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M3 6h18v2H3V6m0 5h18v2H3v-2m0 5h18v2H3v-2Z"/></svg>
+    </label>
+    <div class="md-header__title" data-md-component="header-title">
+      <div class="md-header__ellipsis">
+        <div class="md-header__topic">
+          <span class="md-ellipsis">
+            Gander OCA Knowledge Base
+          </span>
+        </div>
+        <div class="md-header__topic" data-md-component="header-topic">
+          <span class="md-ellipsis">
+            
+              NAT Profile
+            
+          </span>
+        </div>
+      </div>
+    </div>
+    
+    
+    
+      <label class="md-header__button md-icon" for="__search">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.516 6.516 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5Z"/></svg>
+      </label>
+      <div class="md-search" data-md-component="search" role="dialog">
+  <label class="md-search__overlay" for="__search"></label>
+  <div class="md-search__inner" role="search">
+    <form class="md-search__form" name="search">
+      <input type="text" class="md-search__input" name="query" aria-label="Search" placeholder="Search" autocapitalize="off" autocorrect="off" autocomplete="off" spellcheck="false" data-md-component="search-query" required>
+      <label class="md-search__icon md-icon" for="__search">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.516 6.516 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5Z"/></svg>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11h12Z"/></svg>
+      </label>
+      <nav class="md-search__options" aria-label="Search">
+        
+          <a href="javascript:void(0)" class="md-search__icon md-icon" aria-label="Share" data-clipboard data-clipboard-text="" data-md-component="search-share" tabindex="-1">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M18 16.08c-.76 0-1.44.3-1.96.77L8.91 12.7c.05-.23.09-.46.09-.7 0-.24-.04-.47-.09-.7l7.05-4.11c.54.5 1.25.81 2.04.81a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3c0 .24.04.47.09.7L8.04 9.81C7.5 9.31 6.79 9 6 9a3 3 0 0 0-3 3 3 3 0 0 0 3 3c.79 0 1.5-.31 2.04-.81l7.12 4.15c-.05.21-.08.43-.08.66 0 1.61 1.31 2.91 2.92 2.91 1.61 0 2.92-1.3 2.92-2.91A2.92 2.92 0 0 0 18 16.08Z"/></svg>
+          </a>
+        
+        <button type="reset" class="md-search__icon md-icon" aria-label="Clear" tabindex="-1">
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M19 6.41 17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12 19 6.41Z"/></svg>
+        </button>
+      </nav>
+      
+        <div class="md-search__suggest" data-md-component="search-suggest"></div>
+      
+    </form>
+    <div class="md-search__output">
+      <div class="md-search__scrollwrap" data-md-scrollfix>
+        <div class="md-search-result" data-md-component="search-result">
+          <div class="md-search-result__meta">
+            Initializing search
+          </div>
+          <ol class="md-search-result__list"></ol>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+    
+    
+      <div class="md-header__source">
+        <a href="https://github.com/czqoocavatsim/knowledgebase" title="Go to repository" class="md-source" data-md-component="source">
+  <div class="md-source__icon md-icon">
+    
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><!--! Font Awesome Free 6.1.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2022 Fonticons, Inc.--><path d="M439.55 236.05 244 40.45a28.87 28.87 0 0 0-40.81 0l-40.66 40.63 51.52 51.52c27.06-9.14 52.68 16.77 43.39 43.68l49.66 49.66c34.23-11.8 61.18 31 35.47 56.69-26.49 26.49-70.21-2.87-56-37.34L240.22 199v121.85c25.3 12.54 22.26 41.85 9.08 55a34.34 34.34 0 0 1-48.55 0c-17.57-17.6-11.07-46.91 11.25-56v-123c-20.8-8.51-24.6-30.74-18.64-45L142.57 101 8.45 235.14a28.86 28.86 0 0 0 0 40.81l195.61 195.6a28.86 28.86 0 0 0 40.8 0l194.69-194.69a28.86 28.86 0 0 0 0-40.81z"/></svg>
+  </div>
+  <div class="md-source__repository">
+    czqoocavatsim/knowledgebase
+  </div>
+</a>
+      </div>
+    
+  </nav>
+  
+    
+      
+<nav class="md-tabs" aria-label="Tabs" data-md-component="tabs">
+  <div class="md-tabs__inner md-grid">
+    <ul class="md-tabs__list">
+      
+        
+  
+  
+
+
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href="../../../../pilots/" class="md-tabs__link">
+        Pilots
+      </a>
+    </li>
+  
+
+      
+        
+  
+  
+    
+  
+
+
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href="../../../" class="md-tabs__link md-tabs__link--active">
+        Controllers
+      </a>
+    </li>
+  
+
+      
+        
+  
+  
+
+
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href="../../../../additional-resources/" class="md-tabs__link">
+        Additional Resources
+      </a>
+    </li>
+  
+
+      
+    </ul>
+  </div>
+</nav>
+    
+  
+</header>
+    
+    <div class="md-container" data-md-component="container">
+      
+      
+        
+      
+      <main class="md-main" data-md-component="main">
+        <div class="md-main__inner md-grid">
+          
+            
+              
+              <div class="md-sidebar md-sidebar--primary" data-md-component="sidebar" data-md-type="navigation" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+  
+
+
+<nav class="md-nav md-nav--primary md-nav--lifted" aria-label="Navigation" data-md-level="0">
+  <label class="md-nav__title" for="__drawer">
+    <a href="../../../.." title="Gander OCA Knowledge Base" class="md-nav__button md-logo" aria-label="Gander OCA Knowledge Base" data-md-component="logo">
+      
+  <img src="https://ganderoceanic.ca/assets/resources/media/img/brand/sqr/ZQO_SQ_TSPWHITE.png" alt="logo">
+
+    </a>
+    Gander OCA Knowledge Base
+  </label>
+  
+    <div class="md-nav__source">
+      <a href="https://github.com/czqoocavatsim/knowledgebase" title="Go to repository" class="md-source" data-md-component="source">
+  <div class="md-source__icon md-icon">
+    
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><!--! Font Awesome Free 6.1.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2022 Fonticons, Inc.--><path d="M439.55 236.05 244 40.45a28.87 28.87 0 0 0-40.81 0l-40.66 40.63 51.52 51.52c27.06-9.14 52.68 16.77 43.39 43.68l49.66 49.66c34.23-11.8 61.18 31 35.47 56.69-26.49 26.49-70.21-2.87-56-37.34L240.22 199v121.85c25.3 12.54 22.26 41.85 9.08 55a34.34 34.34 0 0 1-48.55 0c-17.57-17.6-11.07-46.91 11.25-56v-123c-20.8-8.51-24.6-30.74-18.64-45L142.57 101 8.45 235.14a28.86 28.86 0 0 0 0 40.81l195.61 195.6a28.86 28.86 0 0 0 40.8 0l194.69-194.69a28.86 28.86 0 0 0 0-40.81z"/></svg>
+  </div>
+  <div class="md-source__repository">
+    czqoocavatsim/knowledgebase
+  </div>
+</a>
+    </div>
+  
+  <ul class="md-nav__list" data-md-scrollfix>
+    
+      
+      
+      
+
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_1" type="checkbox" id="__nav_1" >
+      
+      
+      
+        
+          
+            
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+      
+      
+        
+        
+        <div class="md-nav__link md-nav__link--index ">
+          <a href="../../../../pilots/">Pilots</a>
+          
+            <label for="__nav_1">
+              <span class="md-nav__icon md-icon"></span>
+            </label>
+          
+        </div>
+      
+      <nav class="md-nav" aria-label="Pilots" data-md-level="1">
+        <label class="md-nav__title" for="__nav_1">
+          <span class="md-nav__icon md-icon"></span>
+          Pilots
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+          
+            
+              
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_1_2" type="checkbox" id="__nav_1_2" >
+      
+      
+      
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+      
+      
+        <label class="md-nav__link" for="__nav_1_2">
+          The basics
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <nav class="md-nav" aria-label="The basics" data-md-level="2">
+        <label class="md-nav__title" for="__nav_1_2">
+          <span class="md-nav__icon md-icon"></span>
+          The basics
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../../pilots/basics/first-principles/" class="md-nav__link">
+        First prinicples
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../../pilots/basics/airspace/" class="md-nav__link">
+        North Atlantic airspace
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../../pilots/basics/flight-plan/" class="md-nav__link">
+        Planning your flight
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../../pilots/basics/nats/" class="md-nav__link">
+        NAT Tracks
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../../pilots/basics/slop/" class="md-nav__link">
+        SLOP
+      </a>
+    </li>
+  
+
+            
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_1_3" type="checkbox" id="__nav_1_3" >
+      
+      
+      
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+      
+      
+        <label class="md-nav__link" for="__nav_1_3">
+          Talking to ATC
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <nav class="md-nav" aria-label="Talking to ATC" data-md-level="2">
+        <label class="md-nav__title" for="__nav_1_3">
+          <span class="md-nav__icon md-icon"></span>
+          Talking to ATC
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../../pilots/atc/hf-radio/" class="md-nav__link">
+        Using HF Radio
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../../pilots/atc/selcal/" class="md-nav__link">
+        SELCAL
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../../pilots/atc/clearances/" class="md-nav__link">
+        Getting your clearance
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../../pilots/atc/pos-reps/" class="md-nav__link">
+        Position reports
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../../pilots/atc/revisions/" class="md-nav__link">
+        Clearance revisions
+      </a>
+    </li>
+  
+
+            
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_1_4" type="checkbox" id="__nav_1_4" >
+      
+      
+      
+        
+          
+        
+          
+        
+      
+      
+        <label class="md-nav__link" for="__nav_1_4">
+          natTrak Usage
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <nav class="md-nav" aria-label="natTrak Usage" data-md-level="2">
+        <label class="md-nav__title" for="__nav_1_4">
+          <span class="md-nav__icon md-icon"></span>
+          natTrak Usage
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../../pilots/nattrak/requesting-oceanic-clearance/" class="md-nav__link">
+        Requesting Oceanic Clearance
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../../pilots/nattrak/receiving-your-clearance/" class="md-nav__link">
+        Receiving Oceanic Clearance
+      </a>
+    </li>
+  
+
+            
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../../pilots/cpdlc/" class="md-nav__link">
+        Hoppie's Usage
+      </a>
+    </li>
+  
+
+            
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+    
+      
+      
+      
+
+  
+  
+    
+  
+  
+    
+    <li class="md-nav__item md-nav__item--active md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_2" type="checkbox" id="__nav_2" checked>
+      
+      
+      
+        
+          
+            
+          
+        
+          
+        
+          
+        
+          
+        
+      
+      
+        
+        
+        <div class="md-nav__link md-nav__link--index ">
+          <a href="../../../">Controllers</a>
+          
+            <label for="__nav_2">
+              <span class="md-nav__icon md-icon"></span>
+            </label>
+          
+        </div>
+      
+      <nav class="md-nav" aria-label="Controllers" data-md-level="1">
+        <label class="md-nav__title" for="__nav_2">
+          <span class="md-nav__icon md-icon"></span>
+          Controllers
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+          
+            
+              
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_2_2" type="checkbox" id="__nav_2_2" >
+      
+      
+      
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+      
+      
+        <label class="md-nav__link" for="__nav_2_2">
+          SOPs and Phraseology
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <nav class="md-nav" aria-label="SOPs and Phraseology" data-md-level="2">
+        <label class="md-nav__title" for="__nav_2_2">
+          <span class="md-nav__icon md-icon"></span>
+          SOPs and Phraseology
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+              
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_2_2_1" type="checkbox" id="__nav_2_2_1" >
+      
+      
+      
+        
+          
+            
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+      
+      
+        
+        
+        <div class="md-nav__link md-nav__link--index ">
+          <a href="../../../sops/general/">General Unit Operating Procedures</a>
+          
+            <label for="__nav_2_2_1">
+              <span class="md-nav__icon md-icon"></span>
+            </label>
+          
+        </div>
+      
+      <nav class="md-nav" aria-label="General Unit Operating Procedures" data-md-level="3">
+        <label class="md-nav__title" for="__nav_2_2_1">
+          <span class="md-nav__icon md-icon"></span>
+          General Unit Operating Procedures
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../sops/general/intro/" class="md-nav__link">
+        Introduction
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../sops/general/chap1/" class="md-nav__link">
+        Provision of Air Traffic Services
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../sops/general/chap2/" class="md-nav__link">
+        Separation Standards
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../sops/general/chap3/" class="md-nav__link">
+        Altimeter Setting Procedures and Meteorology
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../sops/general/chap4/" class="md-nav__link">
+        General Coordination Regulation
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../sops/general/chap5/" class="md-nav__link">
+        Route Structures
+      </a>
+    </li>
+  
+
+            
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_2_2_2" type="checkbox" id="__nav_2_2_2" >
+      
+      
+      
+        
+          
+            
+          
+        
+          
+        
+          
+        
+          
+        
+      
+      
+        
+        
+        <div class="md-nav__link md-nav__link--index ">
+          <a href="../../../sops/shanwick/">Shanwick OCA</a>
+          
+            <label for="__nav_2_2_2">
+              <span class="md-nav__icon md-icon"></span>
+            </label>
+          
+        </div>
+      
+      <nav class="md-nav" aria-label="Shanwick OCA" data-md-level="3">
+        <label class="md-nav__title" for="__nav_2_2_2">
+          <span class="md-nav__icon md-icon"></span>
+          Shanwick OCA
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../sops/shanwick/chap1/" class="md-nav__link">
+        General Operating Procedures
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../sops/shanwick/chap2/" class="md-nav__link">
+        Area of Responsibility
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../sops/shanwick/chap3/" class="md-nav__link">
+        Coordination and Procedures with Adjacent Sectors
+      </a>
+    </li>
+  
+
+            
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_2_2_3" type="checkbox" id="__nav_2_2_3" >
+      
+      
+      
+        
+          
+            
+          
+        
+          
+        
+          
+        
+          
+        
+      
+      
+        
+        
+        <div class="md-nav__link md-nav__link--index ">
+          <a href="../../../sops/gander/">Gander OCA</a>
+          
+            <label for="__nav_2_2_3">
+              <span class="md-nav__icon md-icon"></span>
+            </label>
+          
+        </div>
+      
+      <nav class="md-nav" aria-label="Gander OCA" data-md-level="3">
+        <label class="md-nav__title" for="__nav_2_2_3">
+          <span class="md-nav__icon md-icon"></span>
+          Gander OCA
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../sops/gander/chap1/" class="md-nav__link">
+        General Operating Procedures
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../sops/gander/chap2/" class="md-nav__link">
+        Area of Responsibility
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../sops/gander/chap3/" class="md-nav__link">
+        Coordination and Procedures with Adjacent Sectors
+      </a>
+    </li>
+  
+
+            
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../sops/annex-a/" class="md-nav__link">
+        Annex A - Standard Phraseology
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../sops/annex-b/" class="md-nav__link">
+        Annex B - Concorde Phraseology
+      </a>
+    </li>
+  
+
+            
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+    
+  
+  
+    
+    <li class="md-nav__item md-nav__item--active md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_2_3" type="checkbox" id="__nav_2_3" checked>
+      
+      
+      
+        
+          
+        
+          
+        
+          
+        
+      
+      
+        <label class="md-nav__link" for="__nav_2_3">
+          Controller Client
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <nav class="md-nav" aria-label="Controller Client" data-md-level="2">
+        <label class="md-nav__title" for="__nav_2_3">
+          <span class="md-nav__icon md-icon"></span>
+          Controller Client
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+              
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_2_3_1" type="checkbox" id="__nav_2_3_1" >
+      
+      
+      
+        
+          
+        
+      
+      
+        <label class="md-nav__link" for="__nav_2_3_1">
+          Euroscope
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <nav class="md-nav" aria-label="Euroscope" data-md-level="3">
+        <label class="md-nav__title" for="__nav_2_3_1">
+          <span class="md-nav__icon md-icon"></span>
+          Euroscope
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../euroscope/cpdlc/" class="md-nav__link">
+        Topsky CPDLC
+      </a>
+    </li>
+  
+
+            
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+    
+  
+  
+    
+    <li class="md-nav__item md-nav__item--active md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_2_3_2" type="checkbox" id="__nav_2_3_2" checked>
+      
+      
+      
+        
+          
+        
+          
+        
+          
+        
+      
+      
+        <label class="md-nav__link" for="__nav_2_3_2">
+          vatSys
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <nav class="md-nav" aria-label="vatSys" data-md-level="3">
+        <label class="md-nav__title" for="__nav_2_3_2">
+          <span class="md-nav__icon md-icon"></span>
+          vatSys
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../vatsysbasics/" class="md-nav__link">
+        vatSys Basics
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+    
+  
+  
+    <li class="md-nav__item md-nav__item--active">
+      
+      <input class="md-nav__toggle md-toggle" data-md-toggle="toc" type="checkbox" id="__toc">
+      
+      
+        
+      
+      
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          NAT Profile
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <a href="./" class="md-nav__link md-nav__link--active">
+        NAT Profile
+      </a>
+      
+        
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#stips-differences" class="md-nav__link">
+    Stips differences
+  </a>
+  
+    <nav class="md-nav" aria-label="Stips differences">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#box-1" class="md-nav__link">
+    Box 1
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#box-2-9-position-boxes" class="md-nav__link">
+    Box 2-9 (position boxes)
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#box-10" class="md-nav__link">
+    Box 10
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#position-reports" class="md-nav__link">
+    Position reports
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#taglabel-and-radar-symbols" class="md-nav__link">
+    Tag/Label and radar symbols
+  </a>
+  
+    <nav class="md-nav" aria-label="Tag/Label and radar symbols">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#colours" class="md-nav__link">
+    Colours
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#layoutinfo" class="md-nav__link">
+    Layout/info
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#symbols" class="md-nav__link">
+    Symbols
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#nattracks-window" class="md-nav__link">
+    Nattracks &amp; window
+  </a>
+  
+    <nav class="md-nav" aria-label="Nattracks &amp; window">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#track-window" class="md-nav__link">
+    Track window
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#view-inactive-tracks" class="md-nav__link">
+    View inactive tracks
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#nat-clearances" class="md-nav__link">
+    Nat Clearances
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#yellow-track-identifiers" class="md-nav__link">
+    Yellow Track Identifiers
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#no-rcl-received-from-aircraft" class="md-nav__link">
+    No RCL received from Aircraft?
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#selcal" class="md-nav__link">
+    SELCAL
+  </a>
+  
+    <nav class="md-nav" aria-label="SELCAL">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#calling-a-selcal" class="md-nav__link">
+    Calling a SELCAL
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#adding-selcal-to-flight-plan" class="md-nav__link">
+    Adding SELCAL to flight plan
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#further-reading" class="md-nav__link">
+    Further Reading
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+      
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../vatsysadvanced/" class="md-nav__link">
+        vatSys Advanced
+      </a>
+    </li>
+  
+
+            
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../hoppies/" class="md-nav__link">
+        Hoppie's ACARS Client
+      </a>
+    </li>
+  
+
+            
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_2_4" type="checkbox" id="__nav_2_4" >
+      
+      
+      
+        
+          
+        
+          
+        
+          
+        
+      
+      
+        <label class="md-nav__link" for="__nav_2_4">
+          natTrak Website
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <nav class="md-nav" aria-label="natTrak Website" data-md-level="2">
+        <label class="md-nav__title" for="__nav_2_4">
+          <span class="md-nav__icon md-icon"></span>
+          natTrak Website
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../nattrak/pending-rcl-messages/" class="md-nav__link">
+        Pending Clearances Table
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../nattrak/issuing-clx/" class="md-nav__link">
+        Checking Oceanic Clearances
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../nattrak/manual-clx/" class="md-nav__link">
+        Issuing Manual Clearance
+      </a>
+    </li>
+  
+
+            
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+            
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+    
+      
+      
+      
+
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_3" type="checkbox" id="__nav_3" >
+      
+      
+      
+        
+          
+            
+          
+        
+          
+        
+      
+      
+        
+        
+        <div class="md-nav__link md-nav__link--index ">
+          <a href="../../../../additional-resources/">Additional Resources</a>
+          
+            <label for="__nav_3">
+              <span class="md-nav__icon md-icon"></span>
+            </label>
+          
+        </div>
+      
+      <nav class="md-nav" aria-label="Additional Resources" data-md-level="1">
+        <label class="md-nav__title" for="__nav_3">
+          <span class="md-nav__icon md-icon"></span>
+          Additional Resources
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../../additional-resources/myczqo/" class="md-nav__link">
+        Gander Website
+      </a>
+    </li>
+  
+
+            
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+    
+  </ul>
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+            
+              
+              <div class="md-sidebar md-sidebar--secondary" data-md-component="sidebar" data-md-type="toc" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#stips-differences" class="md-nav__link">
+    Stips differences
+  </a>
+  
+    <nav class="md-nav" aria-label="Stips differences">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#box-1" class="md-nav__link">
+    Box 1
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#box-2-9-position-boxes" class="md-nav__link">
+    Box 2-9 (position boxes)
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#box-10" class="md-nav__link">
+    Box 10
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#position-reports" class="md-nav__link">
+    Position reports
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#taglabel-and-radar-symbols" class="md-nav__link">
+    Tag/Label and radar symbols
+  </a>
+  
+    <nav class="md-nav" aria-label="Tag/Label and radar symbols">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#colours" class="md-nav__link">
+    Colours
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#layoutinfo" class="md-nav__link">
+    Layout/info
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#symbols" class="md-nav__link">
+    Symbols
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#nattracks-window" class="md-nav__link">
+    Nattracks &amp; window
+  </a>
+  
+    <nav class="md-nav" aria-label="Nattracks &amp; window">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#track-window" class="md-nav__link">
+    Track window
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#view-inactive-tracks" class="md-nav__link">
+    View inactive tracks
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#nat-clearances" class="md-nav__link">
+    Nat Clearances
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#yellow-track-identifiers" class="md-nav__link">
+    Yellow Track Identifiers
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#no-rcl-received-from-aircraft" class="md-nav__link">
+    No RCL received from Aircraft?
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#selcal" class="md-nav__link">
+    SELCAL
+  </a>
+  
+    <nav class="md-nav" aria-label="SELCAL">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#calling-a-selcal" class="md-nav__link">
+    Calling a SELCAL
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#adding-selcal-to-flight-plan" class="md-nav__link">
+    Adding SELCAL to flight plan
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#further-reading" class="md-nav__link">
+    Further Reading
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+          
+          <div class="md-content" data-md-component="content">
+            <article class="md-content__inner md-typeset">
+              
+                
+  <a href="https://github.com/czqoocavatsim/knowledgebase/edit/master/docs/controller/clients/vatsys/vatsysnatprofile.md" title="Edit this page" class="md-content__button md-icon">
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20.71 7.04c.39-.39.39-1.04 0-1.41l-2.34-2.34c-.37-.39-1.02-.39-1.41 0l-1.84 1.83 3.75 3.75M3 17.25V21h3.75L17.81 9.93l-3.75-3.75L3 17.25Z"/></svg>
+  </a>
+
+
+
+<h1 id="nat-profile">NAT profile</h1>
+<p>Our Vatsys profile has A LOT of bespoke functionality that doesn’t appear in standard profiles. Which will be outlined in this document for people who are already familiar with standard VATSYS profiles. </p>
+<p>The main thing that may call your attention is the new strips and tags. You’ll also see the tracks on your screen they will appear and disappear based on their validity periods. Additionally VATACARs, once it’s ready will be built directly into the profile. Once it’s ready more info on its usage will be listed here.</p>
+<h2 id="stips-differences">Stips differences</h2>
+<figure>
+<p><img alt="Profile Selction" src="/controller/img/vatsysstrip.png" width="750" />
+  </p>
+<figcaption>Handoff Menu</figcaption>
+</figure>
+<p>Immediately you can tell the strips are a lot longer than they used to be. But also not as tall. </p>
+<h3 id="box-1">Box 1</h3>
+<ol>
+<li>
+<p>Status (Controlled/Uncontrolled) shown as CO<em> and UN</em> <strong><sup>^1</sup></strong></p>
+</li>
+<li>
+<p>controlling sector if applicable (NATOC in this example) <strong><sup>^2</sup></strong></p>
+</li>
+<li>
+<p>Aircraft type A388, </p>
+</li>
+<li>
+<p>Aircraft crossing track (RR for random routing in this case), </p>
+</li>
+<li>
+<p>First observed height (FL349 in this example), </p>
+</li>
+<li>
+<p>SELCAL is shown IF it is valid and listed in the flight plan (ABCD in this example), <br></p>
+</li>
+</ol>
+<p><sup> line 2 </sup></p>
+<ol>
+<li>
+<p>Callsign (BAW268), <strong><sup>^!~3</sup></strong></p>
+</li>
+<li>
+<p>Departure (KLAX), </p>
+</li>
+<li>
+<p>Destination (EGLL), <strong><sup>^4</sup></strong></p>
+</li>
+<li>
+<p>Cleared level (350), <strong><sup>^5</sup></strong></p>
+</li>
+<li>
+<p>Mach if cleared (0.85)</p>
+</li>
+</ol>
+<p><strong><sup>^</sup></strong> = left clickable, <strong><sup>!</sup></strong> = Middle clickable, <strong><sup>~</sup></strong> = Right Clickable</p>
+<p><sup>^1</sup> Only clickable on PR* strips that failed to activate for any reason.<br>
+<sup>^2</sup> Click to hand the aircraft to another controller<br>
+<sup>^!~3</sup> Click to Highlight and lock in place. MMB to hide strip, RMB to cock strip to the right<br>
+<sup>^4</sup> Open the aircraft option menu:<figure markdown>
+<img alt="Profile Selction" src="/controller/img/vatsyscontrollermenu.png" width="150" />
+<br />
+<figcaption>control menu</figcaption></p>
+<p></figure>
+<sup>^5</sup> Open level clearance menu:<figure markdown>
+<img alt="Profile Selction" src="/controller/img/vatsyslevelselect.png" width="100" />
+<br />
+<figcaption>Cleared level selector</figcaption></p>
+</figure>
+<h3 id="box-2-9-position-boxes">Box 2-9 (position boxes)</h3>
+<p>Waypoint or Lat/long
+Time Estimate</p>
+<h3 id="box-10">Box 10</h3>
+<p>contains a global ops field (scratch pad) on top (text says GLOBAL) <br>
+And a local ops field (scratch pad) underneath (currently blank)    </p>
+<h2 id="position-reports">Position reports</h2>
+<p>Aircraft who are NOT ADS-B equipped should be instructed to turn their XPDR off to allow full position reporting functionality. Aircraft who are ready for position reports look like the square below. Enter the information they provide into the strip by clicking on the times. </p>
+<figure>
+<p><img alt="Profile Selction" src="/controller/img/vatsyspositionreport.png" width="850" />
+  </p>
+<figcaption>position reports</figcaption>
+</figure>
+<p>Any point that is highlighted is “armed”, when a position report is received both times should be entered even if they remain unchanged to disarm the waypoint. </p>
+<p>If an armed point is not disarmed by 2 mins you will get an MPR warning.</p>
+<h2 id="taglabel-and-radar-symbols">Tag/Label and radar symbols</h2>
+<h3 id="colours">Colours</h3>
+<figure>
+<p><img alt="Profile Selction" src="/controller/img/vatsyscolourful.png" width="850" />
+  </p>
+<figcaption>COLOURS</figcaption>
+</figure>
+<p>Purple, unowned or owned by other controller</p>
+<p>Orange, Owner by you</p>
+<p>Cyan, in/out aircraft</p>
+<p>Yellow, handed out aircraft</p>
+<p>Blue, uncorrelated aircraft</p>
+<h3 id="layoutinfo">Layout/info</h3>
+<figure>
+<p><img alt="Profile Selction" src="/controller/img/vatsystagram.png" width="850" />
+  </p>
+<figcaption>controlled tag with RAM</figcaption>
+</figure>
+<p>Line 0: Any Alerts will appear in yellow here. 
+ <sub>(RAM=route adherence monitor, CLAM= Cleared Level Adherence Monitor, MPR= Missed position report, STCA= Short Term Conflict Advisory, RAD= Radio Failure (squawk 7600), EMER= General Emergency (Squawk 7700).) These can be middle mouse clicked to mute/acknowledge.</sub></p>
+<p>Line 1:<br>Callsign <strong><sup>^~1</sup></strong> (BAW113) <br> Direct message and Voice identifier <strong><sup>^!2</sup></strong> (+ symbol) <br> Track Identifier and ADS-B confirmation <strong><sup>^3</sup></strong> (? means unknown track, Else there will be a letter for a track or RR. If there is an underline, like this image, they are NOT ADS-B equipped. Track E non ADS-B in this case)</p>
+<p>Line 2:<br>Observed/reported Level <strong><sup>^4</sup></strong>(340) <br> Cleared level <strong><sup>^!5</sup></strong> (340) <br> observed ground speed (44 meaning 440 knots)</p>
+<p>Line 3: <br>Destination (KFJK) <br> Aircraft (B77W) <br> RNP rating (Z = NO RNP, else a number specified how many nautical miles accurate)</p>
+<p>^ = left clickable, ! = Middle clickable, ~ = Right Clickable<br>
+<strong>^~1</strong> provides a drop down visible below. (RMB = SAR watch time or AFK time)</p>
+<p><strong>^!2</strong> Provides the “CPDLC” editor, also listed above, for direct message CPDLC functionality, (MMB offsets the tag vertically)</p>
+<p><strong>^3</strong> Takes you Directly to either the Create or pending Nattracks page. IF you’re experiencing a 403 error you should go to the <a href="https://nattrak.vatsim.net/auth/redirect" target="_blank">Nattrack login page</a>. Else if you click this on a cleared aircraft it will bring up a window to view and adjust their clearance (LOCALLY) or allow you to visit the website to change these details globally</p>
+<p><strong>^4</strong> Only clickable when dealing with position reports (no coupled radar return)</p>
+<p><strong>^!5</strong> Click to adjust the cleared level.Use the BLK for block level clearances. Once the pilot reads back the clearance you may MMB to acknowledge it.</p>
+<h2 id="symbols">Symbols</h2>
+<p><img alt="alt text" src="../../../img/vatsysfaspad.png" width="30" />FASPAD = a flight plan without a radar return correlated.</p>
+<p><img alt="alt text" src="../../../img/vatsys2000adsb.png" width="30" />Solid Plane = an aircraft squawking the correct oceanic code 2000.</p>
+<p><img alt="alt text" src="../../../img/vatsysrandomadsb.png" width="30" />Hollow plane = Mode Charlie, non 2000 code.</p>
+<p><img alt="alt text" src="../../../img/vatsyssecondaryradar.png" width="30" />Small Octagon = Secondary Domestic radar <sub>(shown with the below symbol)</sub></p>
+<p><img alt="alt text" src="../../../img/vatsysprimaryradar.png" width="30" />Skeleton Plane = Primary domestic radar return <sub>(this image depicts with the hollow plane as well)</sub></p>
+<p><img alt="alt text" src="../../../img/vatsysradarcoast.png" width="30" />Hash = Data packets or radar coverage dropped <sub>(never visible for more than a second)</sub></p>
+<p><img alt="alt text" src="../../../img/vatsysrelectedadsb.png" width="30" /> Larger Octagon = Aircraft Selected identification.<sub>(shows the aircraft you have selected, usually for contact me-s or strip locking)</sub></p>
+<h2 id="nattracks-window">Nattracks &amp; window</h2>
+<h3 id="track-window">Track window</h3>
+<figure>
+<p><img alt="Profile Selction" src="/controller/img/vatsystrackinfo.png" width="350" />
+  </p>
+<figcaption>Track Info Window</figcaption>
+</figure>
+<p>The Nat track window can be found under <code>Windows &gt; NAT Track Info</code> </p>
+<p>With the TMI listed on top, in this example 366(happy new year!)<br> All the tracks and their valid times and levels are listed here. <br>If you’d like to refresh the tracks for any reason, you may with the refresh button however it automatically refreshes in the background.</p>
+<h3 id="view-inactive-tracks">View inactive tracks</h3>
+<p>By default tracks are only visible when they are valid (15 mins before and after) If you wish to change the visible tracks, open the NAT track info window and click “Normal” switch it to “All” then “None” </p>
+<blockquote>
+<p>NOTE that there is a 60 second refresh timer so don’t expect immediate response</p>
+</blockquote>
+<h2 id="nat-clearances">Nat Clearances</h2>
+<p>All clearances are currently done through the Nattrack.vatsim.net website. You can click the identifier for any aircraft <strong>that you own</strong> to open the website. </p>
+<blockquote>
+<p>NOTE it takes up to 15 secs for the website to recognise your connection to the network, and will show 403 error. </p>
+<p>Note if after this time the error persists, return to the nattracks home page and ensure you are logged in. 
+From there clicking the aircraft tag will take you to relevant pages correctly.</p>
+</blockquote>
+<h2 id="yellow-track-identifiers">Yellow Track Identifiers</h2>
+<p>If you spot a Yellow Track identifier on a tag, this is an RCL sitting in the pending list awaiting your review. To clear it, click on the yellow idietifier to fo the the natracks website, move the RCL to processed.</p>
+<figure>
+<p><img alt="Profile Selction" src="/controller/img/vatsysunowned.png" width="150" />
+  </p>
+<figcaption>Example pending RCL</figcaption>
+</figure>
+<h2 id="no-rcl-received-from-aircraft">No RCL received from Aircraft?</h2>
+<p>Want to send a message reminding pilots of their requirements to send an RCL? you can click on the CPDLC button on their tag/label <sub>(for voice capable aircraft, this button is invisible but clickable, however for aircraft text or receive only, will have a + or - symbol respectively.)</sub></p>
+<figure>
+<p><img alt="Profile Selction" src="/controller/img/vatsyscpdlcclrn.png" width="350" />
+  </p>
+<figcaption>CPDLC clearance tab</figcaption>
+</figure>
+<h2 id="selcal">SELCAL</h2>
+<p>It should be noted that, unlike Euroscope Vatsys uses SELCAL16 simulation. The rules to which are outlined <a href="https://en.wikipedia.org/wiki/SELCAL#Code_registration" target="_blank">here</a>. </p>
+<p>If a SELCAL is filed and is valid, it will be listed in the strip above the mach.</p>
+<h3 id="calling-a-selcal">Calling a SELCAL</h3>
+<p>To call an aircraft SELCAL there are multiple options, if you own the aircraft you may click on the callsign on the label/tag, or the destination on the strip. Then click the SELCAL option.</p>
+<p>Alternatively if you do not own the aircraft, select the aircraft symbol, then in the top bar use <code>tool &gt; SELCAL</code>, which will open the same menu and pre-fill the selected aircraft if they have selcal in their flight plan.</p>
+<h3 id="adding-selcal-to-flight-plan">Adding SELCAL to flight plan</h3>
+<p>Weather you’re filling a pilot generated SELCAL or Generating one for them you can place the SELCAL in their remarks section by <code>modifying</code> their flightplan, ensure use of <code>SEL/ABCD</code></p>
+<figure>
+<p><img alt="Profile Selction" src="/controller/img/vatsysflightplanselcal.png" width="350" />
+  </p>
+<figcaption>Track Info Window</figcaption>
+</figure>
+<h2 id="further-reading">Further Reading</h2>
+<p><a href="/controller/clients/vatsys/vatsysbasics">Nat Profile</a> <br>
+<a href="/controller/clients/vatsys/vatsysadvanced">vatSys Advanced</a></p>
+
+  <hr>
+<div class="md-source-file">
+  <small>
+    
+      Last update:
+      <span class="git-revision-date-localized-plugin git-revision-date-localized-plugin-date">February 20, 2025</span>
+      
+    
+  </small>
+</div>
+
+              
+            </article>
+          </div>
+        </div>
+        
+      </main>
+      
+        <footer class="md-footer">
+  
+    <nav class="md-footer__inner md-grid" aria-label="Footer">
+      
+        
+        <a href="../vatsysbasics/" class="md-footer__link md-footer__link--prev" aria-label="Previous: vatSys Basics" rel="prev">
+          <div class="md-footer__button md-icon">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11h12Z"/></svg>
+          </div>
+          <div class="md-footer__title">
+            <div class="md-ellipsis">
+              <span class="md-footer__direction">
+                Previous
+              </span>
+              vatSys Basics
+            </div>
+          </div>
+        </a>
+      
+      
+        
+        <a href="../vatsysadvanced/" class="md-footer__link md-footer__link--next" aria-label="Next: vatSys Advanced" rel="next">
+          <div class="md-footer__title">
+            <div class="md-ellipsis">
+              <span class="md-footer__direction">
+                Next
+              </span>
+              vatSys Advanced
+            </div>
+          </div>
+          <div class="md-footer__button md-icon">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M4 11v2h12l-5.5 5.5 1.42 1.42L19.84 12l-7.92-7.92L10.5 5.5 16 11H4Z"/></svg>
+          </div>
+        </a>
+      
+    </nav>
+  
+  <div class="md-footer-meta md-typeset">
+    <div class="md-footer-meta__inner md-grid">
+      <div class="md-copyright">
+  
+    <div class="md-copyright__highlight">
+      Copyright (C) Gander Oceanic OCA 2018-2025. All Rights Reserved. Not to be used for real world navigation. Flight simulation only.
+    </div>
+  
+  
+    Made with
+    <a href="https://squidfunk.github.io/mkdocs-material/" target="_blank" rel="noopener">
+      Material for MkDocs
+    </a>
+  
+</div>
+      
+        <div class="md-social">
+  
+    
+    
+      
+      
+    
+    <a href="https://twitter.com/czqoocavatsim" target="_blank" rel="noopener" title="twitter.com" class="md-social__link">
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><!--! Font Awesome Free 6.1.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2022 Fonticons, Inc.--><path d="M459.37 151.716c.325 4.548.325 9.097.325 13.645 0 138.72-105.583 298.558-298.558 298.558-59.452 0-114.68-17.219-161.137-47.106 8.447.974 16.568 1.299 25.34 1.299 49.055 0 94.213-16.568 130.274-44.832-46.132-.975-84.792-31.188-98.112-72.772 6.498.974 12.995 1.624 19.818 1.624 9.421 0 18.843-1.3 27.614-3.573-48.081-9.747-84.143-51.98-84.143-102.985v-1.299c13.969 7.797 30.214 12.67 47.431 13.319-28.264-18.843-46.781-51.005-46.781-87.391 0-19.492 5.197-37.36 14.294-52.954 51.655 63.675 129.3 105.258 216.365 109.807-1.624-7.797-2.599-15.918-2.599-24.04 0-57.828 46.782-104.934 104.934-104.934 30.213 0 57.502 12.67 76.67 33.137 23.715-4.548 46.456-13.32 66.599-25.34-7.798 24.366-24.366 44.833-46.132 57.827 21.117-2.273 41.584-8.122 60.426-16.243-14.292 20.791-32.161 39.308-52.628 54.253z"/></svg>
+    </a>
+  
+    
+    
+    <a href="https://ganderoceanic.ca" target="_blank" rel="noopener" title="Gander Oceanic main website" class="md-social__link">
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M10 20v-6h4v6h5v-8h3L12 3 2 12h3v8h5Z"/></svg>
+    </a>
+  
+</div>
+      
+    </div>
+  </div>
+</footer>
+      
+    </div>
+    <div class="md-dialog" data-md-component="dialog">
+      <div class="md-dialog__inner md-typeset"></div>
+    </div>
+    <script id="__config" type="application/json">{"base": "../../../..", "features": ["navigation.instant", "navigation.tabs", "navigation.tabs.sticky", "navigation.tracking", "navigation.indexes", "search.suggest", "search.highlight", "search.share"], "search": "../../../../assets/javascripts/workers/search.2a1c317c.min.js", "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.config.lang": "en", "search.config.pipeline": "trimmer, stopWordFilter", "search.config.separator": "[\\s\\-]+", "search.placeholder": "Search", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version.title": "Select version"}, "version": {"provider": "mike"}}</script>
+    
+    
+      <script src="../../../../assets/javascripts/bundle.ed9748b7.min.js"></script>
+      
+    
+  </body>
+</html>
