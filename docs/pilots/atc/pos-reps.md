@@ -39,13 +39,13 @@ dateCreated: 2020-09-11T03:46:30.382Z
   <p><strong>SWR100:</strong> Shanwick Radio, Swissair 100 with position report</p>
 </blockquote>
 <blockquote>
-  <p><strong>EGGX_FSS: </strong>Swissair 100, Shanwick Radio, pass your message</p>
+  <p><strong>EGGX_CTR: </strong>Swissair 100, Shanwick Radio, pass your message</p>
 </blockquote>
 <blockquote>
   <p><strong>SWR100: </strong>Shanwick Radio, Swissair 100 reports passing RESNO at time 1235, Flight Level 330, estimating 56 North 020 West at 1310, 56 North 030 West next</p>
 </blockquote>
 <blockquote>
-  <p><strong>EGGX_FSS: </strong>Swissair 100, Shanwick copies Swissair 100 passed RESNO time 1235, Flight Level 330, estimating 56 North 020 West at time 1310, 56 North 030 West next</p>
+  <p><strong>EGGX_CTR: </strong>Swissair 100, Shanwick copies Swissair 100 passed RESNO time 1235, Flight Level 330, estimating 56 North 020 West at time 1310, 56 North 030 West next</p>
 </blockquote>
 <blockquote>
   <p><strong>SWR100:</strong> Shanwick Radio, Swissair 100, correct.</p>
@@ -55,13 +55,13 @@ dateCreated: 2020-09-11T03:46:30.382Z
   <p><strong>BAW212:</strong> Shanwick Radio, Speedbird 212 with revised estimate</p>
 </blockquote>
 <blockquote>
-  <p><strong>EGGX_FSS: </strong>Speedbird 212, Shanwick Radio, pass your message</p>
+  <p><strong>EGGX_CTR: </strong>Speedbird 212, Shanwick Radio, pass your message</p>
 </blockquote>
 <blockquote>
   <p><strong>BAW212:</strong> Shanwick Radio, Speedbird 212 estimating 57 North 040 West at 0305</p>
 </blockquote>
 <blockquote>
-  <p><strong>EGGX_FSS: </strong>Speedbird 212, Shanwick Radio copies revision 57 North 040 West at time 0305</p>
+  <p><strong>EGGX_CTR: </strong>Speedbird 212, Shanwick Radio copies revision 57 North 040 West at time 0305</p>
 </blockquote>
 <blockquote>
   <p><strong>BAW212:</strong> Shanwick Radio, Speedbird 212</p>

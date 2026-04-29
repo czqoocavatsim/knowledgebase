@@ -24,7 +24,7 @@ dateCreated: 2020-09-11T03:44:47.128Z
   <p><strong>ACA123</strong>: Gander Radio, Air Canada 123 request SELCAL check on FS-BQ (Foxrot Sierra Bravo Quebec)</p>
 </blockquote>
 <blockquote>
-  <p><strong>CZQX_FSS</strong>: Air Canada 123, Gander Radio, stand by for SELCAL check.</p>
+  <p><strong>CZQO_CTR</strong>: Air Canada 123, Gander Radio, stand by for SELCAL check.</p>
 </blockquote>
 
 ## Sources
