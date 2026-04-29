@@ -9,7 +9,7 @@ editor: undefined
 dateCreated: 2020-09-11T03:36:14.212Z
 -->
 
-# First prinicples 
+# First principles 
 
 ## Flying over the North Atlantic
 
