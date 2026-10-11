@@ -27,7 +27,7 @@ dateCreated: 2020-09-11T03:37:30.150Z
   <li><strong>Reykjavik</strong>: control over Greenland up to FL195 (Llt-Red)</li>
   <li><strong>Gander Oceanic Transition Area (delegated to Gander Domestic)</strong>: west of 50 degrees west (yellow)</li>
   <li><strong>Gander Domestic</strong>: above FL55 bounded by CARPE, LOGSU, VODOR, 45/50 and 50/50 (dark-red)</li>
-  <li><strong>New York: </strong>Control in the airspace 44.5/50, 45/50, 45/40, 44.5/40</li>
+  <li><strong>New York</strong>: Control in the airspace 44.5/50, 45/50, 45/40, 44.5/40</li>
 </ul>
 
 ### Shanwick OCA

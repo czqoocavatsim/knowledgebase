@@ -38,11 +38,11 @@ The datalink format is as follows:
 * `KLM621 CLRD TO KATL VIA NEBIN` You're cleared to KATL via NEBIN, your entry waypoint.
 * `NAT E` your NAT track/random routeing.
 * `NEBIN 54/20 55/30 55/40 53/50 PELTU` The track routeing.
-* `FM NEBIN/1837 MNTN F350 M085` From PIKIL (estimating arrival at 10:33Z), maintain FL350, mach .83.
+* `FM NEBIN/1837 MNTN F350 M085` From NEBIN (estimating arrival at 10:33Z), maintain FL350, mach .83.
 
 > **NOTE:** Changes from your initial request will appear with a ```/``` infront of them. Examples can be found in the above image. A reclearance will always appear with one change, so make sure to take note of what the new restriction is.
 
-The voice format below that represents the usual voice formats as per [Getting Your Clearance](/atc/clearances).
+The voice format below that represents the usual voice formats as per [Getting Your Clearance](../atc/clearances.md).
 
 
 ## Acknowleding your clearance and reverting to voice
