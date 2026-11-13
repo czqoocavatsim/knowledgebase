@@ -32,7 +32,7 @@ dateCreated: 2020-09-11T03:37:30.150Z
 
 ### Shanwick OCA
 
-<p>The Shanwick OCA stretches another enormous 545 nautical miles, bordering Gander at 30 degrees west, Santa Maria at 45 degrees north and Reykjavik at 61 degrees north. Like Gander, Shanwick also borders several domestic FIRs: Scottish, Shannon, London, Brest and Madrid. Airspace is Class A above 5,500 ft and below, Class G.</p>
+<p>The Shanwick OCA stretches another enormous 545 nautical miles, bordering Gander at 30 degrees west, Santa Maria at 45 degrees north and Reykjavik at 61 degrees north. Like Gander, Shanwick also borders several domestic FIRs: Scottish, Shannon, London, Brest and Madrid. Airspace is Class A above 5,500 ft and Class G below.</p>
 <figure class="image image_resized" style="width:55.49%;"><img src="/img/shanwick.png">
   <figcaption>Airspace map of the Shanwick OCA</figcaption>
 </figure>

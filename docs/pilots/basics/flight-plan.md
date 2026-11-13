@@ -14,7 +14,7 @@ dateCreated: 2020-09-11T03:39:21.105Z
 <p>In this article, we will outline the basics of oceanic flight planning and some tips and tricks you can take advantage of to perform a successful oceanic flight.</p>
 <figure class="image image_resized" style="width:60.79%;"><img src="/img/oceanic_plotting.png"></figure>
 <h2>Routes</h2>
-<p>In the previous article (see <a href="https://knowledgebase.ganderoceanic.com/en/basics/nats">NAT Tracks</a>) we discussed the two main types of oceanic routing, NAT Track and Random Routing. However, which one do you choose?</p>
+<p>In the previous article (see <a href="/pilots/basics/nats/">NAT Tracks</a>) we discussed the two main types of oceanic routing, NAT Track and Random Routing. However, which one do you choose?</p>
 <p>As discussed, eastbound and westbound flight on the OTS are only available at certain times of the day. Much of the time, it will be possible to utilise a NAT track, and if this is the case, then it should be the preferred option, however, there are many situations where a published track is simply not available for a pilot's direction of flight and/or requirements. Therefore, a Random Routing is required. Many flight planning tools such as SimBrief generate a suitable Random Routing, however, at times, it may be necessary to make one up. In that case, observe the high-level weather forecast and plot a logical route, for example, select a waypoint every 10 degrees of longitude.</p>
 
 ## Flight Levels
@@ -113,7 +113,7 @@ dateCreated: 2020-09-11T03:39:21.105Z
   <li>If you don't understand what the controller said, say so! They will explain it to you in a different way. Likewise, if you cannot do something, tell them that you are ‘unable’ and they can find an alternative.</li>
   <li>If you are not sure about any aspect of your oceanic flight, don't be afraid to private message the oceanic controller. More often than not, they will be more than happy to help you out.</li>
   <li>If you need something from the controller, for example, a change of flight level or a change of speed, just ask! In many cases, the controller can accommodate the request.</li>
-  <li>For information regarding appropriate phraseology, please view our phraseology guides for <a href="https://knowledgebase.ganderoceanic.com/en/atc/clearances">clearances</a>, <a href="https://knowledgebase.ganderoceanic.com/en/atc/posreps">position reports</a> and <a href="https://knowledgebase.ganderoceanic.com/en/atc/revisions">amendments</a>.</li>
+  <li>For information regarding appropriate phraseology, please view our phraseology guides for <a href="/pilots/atc/clearances/">clearances</a>, <a href="/pilots/atc/pos-reps/">position reports</a> and <a href="/pilots/atc/revisions/">amendments</a>.</li>
 </ul>
 
 ## Sources

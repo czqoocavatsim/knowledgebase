@@ -30,7 +30,7 @@ dateCreated: 2020-09-11T03:40:59.990Z
 <ul>
   <li>Aircraft not capable of programming automatic offsets must fly their designated route on the centreline.</li>
   <li>Aircraft capable of automatic offset programming should randomly select between an offset or the centreline. To determine the best path to fly, a flight crew should use their appropriate equipment (radio, visual observations, TCAS/ACAS, GPWS) to determine which flight path is best.</li>
-  <li>AIrcraft capable of programming offsets in tenths of a nautical mile should do so, as it contributes further to collision mitigation.</li>
+  <li>Aircraft capable of programming offsets in tenths of a nautical mile should do so, as it contributes further to collision mitigation.</li>
   <li>No ATC clearances are required for this procedure and it not necessary for ATC to be notified.</li>
   <li>Voice position reports should be based on waypoints in the current ATC clearance, not the position of the offset</li>
 </ul>

@@ -55,7 +55,7 @@ dateCreated: 2020-09-11T03:45:45.724Z
 <blockquote>
   <p><strong>CZQO_CTR</strong>: Gander Oceanic clears BAW123 London Heathrow via ALLRY, track Alpha. From ALLRY maintain Flight Level 350, Mach .80</p>
 </blockquote>
-<p>BAW123 must, in the readback of their clearance, confirm that their version of the NAT track message is up-to-date by including the TMI (see <a href="https://knowledgebase.ganderoceanic.com/en/basics/nats">North Atlantic Tracks</a>):</p>
+<p>BAW123 must, in the readback of their clearance, confirm that their version of the NAT track message is up-to-date by including the TMI (see <a href="/pilots/basics/nats/">North Atlantic Tracks</a>):</p>
 <blockquote>
   <p><strong>BAW123: </strong>BAW123 is cleared to London Heathrow, via NAT track Alpha, TMI 115. From ALLRY maintain Flight Level 350, Mach .80</p>
 </blockquote>

@@ -1,5 +1,5 @@
 # Receiving your clearance
-> Follow these instructions after reviewing and completing the [Requesting Oceanic Clearance](/nattrak/requesting-oceanic-clearance) page.
+> Follow these instructions after reviewing and completing the [Requesting Oceanic Clearance](/pilots/nattrak/requesting-oceanic-clearance/) page.
 
 
 ## Message history page
@@ -16,17 +16,17 @@ You can see the oceanic clearance request as done on the last page. It is presen
 
 
 ## Receiving an oceanic clearance
-As soon as you request is submitted, you will recieve an Automatic Acknowledgement of your Oceanic Clearance. This advises you to expect to enter the Ocean per your Clearance Request.
+As soon as your request is submitted, you will receive an Automatic Acknowledgement of your Oceanic Clearance. This advises you to expect to enter the Ocean per your Clearance Request.
 ![natTrak Auto Ack Message](/pilots/img/nattrakmessagept2.png)
 
-> Note: A Controller may make an ammendment to your clearance, so it is vital that you ensure to check the natTrak Website in order to ensure no changes are made.
+> Note: A Controller may make an amendment to your clearance, so it is vital that you ensure to check the natTrak Website in order to ensure no changes are made.
 
 ### Get notified if a clearance amendment is made
 When you go onto the page for the first time, your browser should ask if you wish to receive notifications from nattrak.vatsim.net. If you allow it, you should be notified via a browser push notification when your clearance is available providing you leave the page open in the background.
 
 ![natTrak Oceanic Clearance Message](/pilots/img/nattrakmessagenotify.png)
 
-The ammendement ```(called a reclearance)``` will appear as follows:
+The amendment (called a reclearance) will appear as follows:
 
 ![natTrak Oceanic ReClearance](/pilots/img/nattrakmessagept3.png)
 
@@ -40,12 +40,12 @@ The datalink format is as follows:
 * `NEBIN 54/20 55/30 55/40 53/50 PELTU` The track routeing.
 * `FM NEBIN/1837 MNTN F350 M085` From NEBIN (estimating arrival at 10:33Z), maintain FL350, mach .83.
 
-> **NOTE:** Changes from your initial request will appear with a ```/``` infront of them. Examples can be found in the above image. A reclearance will always appear with one change, so make sure to take note of what the new restriction is.
+> **NOTE:** Changes from your initial request will appear with a `/` in front of them. Examples can be found in the above image. A reclearance will always appear with one change, so make sure to take note of what the new restriction is.
 
 The voice format below that represents the usual voice formats as per [Getting Your Clearance](../atc/clearances.md).
 
 
-## Acknowleding your clearance and reverting to voice
+## Acknowledging your clearance and reverting to voice
 
 There is no requirement to acknowledge oceanic clearances on natTrak, unlike on voice.
 
