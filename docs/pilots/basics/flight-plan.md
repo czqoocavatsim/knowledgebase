@@ -18,89 +18,9 @@ dateCreated: 2020-09-11T03:39:21.105Z
 <p>As discussed, eastbound and westbound flight on the OTS are only available at certain times of the day. Much of the time, it will be possible to utilise a NAT track, and if this is the case, then it should be the preferred option, however, there are many situations where a published track is simply not available for a pilot's direction of flight and/or requirements. Therefore, a Random Routing is required. Many flight planning tools such as SimBrief generate a suitable Random Routing, however, at times, it may be necessary to make one up. In that case, observe the high-level weather forecast and plot a logical route, for example, select a waypoint every 10 degrees of longitude.</p>
 
 ## Flight Levels
-<p>Each of the NAT tracks has a published set of specific flight levels allocated between the FL310 and FL400 band. This makes altitude choice relatively easy for a designated track.</p>
-<p>Random Routings, however, have their own set of flight levels depending on direction of flight. These are summarised in the below table:<br>&nbsp;</p>
-<figure class="table">
-  <table>
-    <tbody>
-      <tr>
-        <td><strong>Level</strong></td>
-        <td><strong>Time</strong></td>
-        <td><strong>Direction</strong></td>
-      </tr>
-      <tr>
-        <td>FL430</td>
-        <td>All</td>
-        <td>Westbound &nbsp; &nbsp;&nbsp;</td>
-      </tr>
-      <tr>
-        <td>FL410</td>
-        <td>All</td>
-        <td>Eastbound</td>
-      </tr>
-      <tr>
-        <td>FL400</td>
-        <td>All</td>
-        <td>Westbound</td>
-      </tr>
-      <tr>
-        <td>FL390</td>
-        <td>All</td>
-        <td>Eastbound</td>
-      </tr>
-      <tr>
-        <td>FL380</td>
-        <td>0801z-2229z<br>2230z-0800z</td>
-        <td>Westbound<br>Eastbound</td>
-      </tr>
-      <tr>
-        <td>FL370</td>
-        <td>All</td>
-        <td>Eastbound</td>
-      </tr>
-      <tr>
-        <td>FL360</td>
-        <td>All</td>
-        <td>Westbound</td>
-      </tr>
-      <tr>
-        <td>FL350</td>
-        <td>All</td>
-        <td>Eastbound</td>
-      </tr>
-      <tr>
-        <td>FL340</td>
-        <td>0801z-2229z<br>2230z-0800z</td>
-        <td>Westbound<br>Eastbound</td>
-      </tr>
-      <tr>
-        <td>FL330</td>
-        <td>1901z-0959z<br>1000z-1900z</td>
-        <td>Eastbound<br>Westbound</td>
-      </tr>
-      <tr>
-        <td>FL320</td>
-        <td>All</td>
-        <td>Westbound</td>
-      </tr>
-      <tr>
-        <td>FL310 &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp;</td>
-        <td>All</td>
-        <td>Westbound</td>
-      </tr>
-      <tr>
-        <td>FL300</td>
-        <td>All</td>
-        <td>Westbound</td>
-      </tr>
-      <tr>
-        <td>FL290</td>
-        <td>All</td>
-        <td>Eastbound</td>
-      </tr>
-    </tbody>
-  </table>
-</figure>
+<p>Each NAT track has a set of flight levels published in the NAT track message (see the example on the <a href="/pilots/basics/nats/">NAT Tracks</a> page), so altitude choice is straightforward on a track. The levels differ from track to track and from day to day, so always check the current message.</p>
+<p><strong>Random Routings:</strong> older editions of NAT Doc 007 carried a Flight Level Allocation Scheme (FLAS), which pushed random-route traffic onto different levels depending on direction and time of day. That attachment has been removed from the current edition (V.2026-1, in force from 19 March 2026) and nothing has replaced it. A random-route flight may now plan any level, provided it works with the traffic flows and ATC can accommodate it. Ask for the level you want, and tell the controller the highest level you can accept.</p>
+
 
 ## Mach Number
 <p>Instead of Indicated Airspeed (IAS), Mach is used in oceanic airspace. Mach is very important for aircraft operating at high levels at high speed, as it is a better representation of the aircraft's actual speed through the air than ground speed or IAS at cruising levels. Pilots may file their preferred Mach number and in most cases will receive a clearance with that Mach number. It is rare for a controller to assign anything more than .02 Mach below or .01 Mach above the requested speed.</p>

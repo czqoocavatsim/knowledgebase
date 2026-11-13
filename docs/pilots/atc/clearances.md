@@ -44,7 +44,7 @@ dateCreated: 2020-09-11T03:45:45.724Z
   <li>Requested NAT Track</li>
   <li>Estimate for the NAT / Oceanic Airspace entry in ZULU time</li>
   <li>Requested Mach number</li>
-  <li>Requested flight level, and maximum flight level if able ('When Able Higher' report)</li>
+  <li>Requested flight level, and the maximum (highest) flight level you can accept at the entry point (the real-world oceanic clearance request calls this &quot;MAX FL&quot;)</li>
 </ul>
 <p>With all their information collated, BAW123 may now go ahead and request their oceanic clearance:</p>
 <blockquote>
@@ -89,7 +89,7 @@ dateCreated: 2020-09-11T03:45:45.724Z
   <p><strong>ACA865:</strong>&nbsp;ACA865 is cleared to Toronto via MALOT 54N020W 56N030W 57N040W 56N050W JANJO, from MALOT maintain Flight Level 350, Mach .80</p>
   <p><strong>EGGX_CTR:&nbsp;</strong>ACA865, read-back correct</p>
 </blockquote>
-<p>(<strong>Note:</strong> coordinates shall be spoken as "5 4 north 0 2 0 west". Times shall be spoken as "1 1 3 1", and not "eleven thirty-one")</p>
+<p>(<strong>Note:</strong> coordinates are spoken in the same way as above, "five four north, zero two zero west", and times digit by digit, "one one three one", not "eleven thirty-one")</p>
 <p><strong>Note: a full read-back of the clearance is always required.</strong></p>
 
 ### Clearance issued with an amendment

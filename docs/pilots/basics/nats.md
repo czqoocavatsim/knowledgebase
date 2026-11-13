@@ -14,7 +14,7 @@ dateCreated: 2020-09-11T03:38:36.738Z
 ## The Organised Track System (OTS)
 <p>Due to passenger demand, time zone differences and noise restrictions at airports, most air traffic in the North Atlantic contributes to two major alternating traffic flows, a westbound flow in the morning and an eastbound flow at night. As a result of these flows, most traffic is concentrated uni-directionally depending on the time of day. Peak westbound traffic crosses 30W between 1130z and 1900z, whilst peak eastbound traffic crosses 30W between 0100z and 0800z.</p>
 <p>On top of these operational characteristics, wind, airline requests and controller separation requirements play essential roles. Aircraft typically need to fly between a narrow level band (between FL310 and FL400) and will attempt to fly with the strongest tailwind (eastbound crossing) or will try to avoid the headwind (westbound crossing). All of these considerations prompt the need for a system of dynamic routes across the North Atlantic. This system is known as the Organised Track System, or OTS for short.</p>
-<p>Each day, the OTS is constructed with the cooperation of all relevant OACCs (Oceanic Area Control Centres) to ensure that the best possible routes are chosen for the conditions. The agreed OTS for the day is then forwarded through the ‘NAT track message’. The NAT track message details all of the agreed-upon North Atlantic routings for the flow and messages are typically published twice a day, at 2200z and 1400z.</p>
+<p>Each day, the OTS is constructed with the cooperation of all relevant OACCs (Oceanic Area Control Centres) to ensure that the best possible routes are chosen for the conditions. The agreed OTS for the day is then forwarded through the ‘NAT track message’. The NAT track message details all of the agreed-upon North Atlantic routings for the flow and the day-time (westbound) OTS is typically published at around 2200z the evening before it takes effect, and the night-time (eastbound) OTS at around 1400z.</p>
 
 ## The NAT Track Message
 <p>Below is an example of a NAT track message, published on the 1st of May detailing the tracks valid for the 2nd of May.</p>
@@ -48,7 +48,7 @@ NAR NIL-
 MAY 02/1130Z TO MAY 02/1900Z
 PART TWO OF TWO PARTS-
 REMARKS.
-1.TMI IS 121 AND OPERATORS ARE REMINDED TO INCLUDE THE
+1.TMI IS 122 AND OPERATORS ARE REMINDED TO INCLUDE THE
 TMI NUMBER AS PART OF THE OCEANIC CLEARANCE READ BACK.
 PRMS.
 ...</code></pre>
@@ -64,7 +64,7 @@ PRMS.
 <p><strong>EUR RTS WEST NIL</strong><br>No NERS (North Atlantic European Routing Scheme, an occasional domestic route dictating an exact path into domestic airspace from certain tracks) published today for this track</p>
 <p><strong>NAR NIL-</strong><br>No NARs (North American Routings, published routings from the North American airway system to the coastal fixes) specifically published and associated with this track</p>
 <p>There are no named waypoints over the North Atlantic aside from the entry/exit points at the border. Instead, ‘coordinate points’ are used, often formatted as 50/30, translating as 50 North, 30 West.</p>
-<p>Each message is issued a <strong>TMI </strong>(Track Message Identifier), which is simply the current Julian calendar day (up to 365, assuming non-leap year). In situations where an amendment needs to be made, a letter is appended to the end of the TMI (e.g. 123A), and the message is re-issued. It is important to clarify the TMI in all clearance readbacks, as it is possible to have received an outdated NAT message by mistake.</p>
+<p>Each message is issued a <strong>TMI </strong>(Track Message Identifier), which is the Julian date (the day of the year) on which the tracks take effect, up to 366 in a leap year. In the example above the message is published on 1 May for 2 May, so the TMI is 122. In situations where an amendment needs to be made, a letter is appended to the end of the TMI (e.g. 123A), and the message is re-issued. It is important to clarify the TMI in all clearance readbacks, as it is possible to have received an outdated NAT message by mistake.</p>
 
 ## It Takes Five to Tango
 <p>Five routes exist in the far south-east corner of Shanwick's airspace to connect routes between Shannon's SOTA area and Spain, the Canaries and the Lisbon FIR. These routes do not change daily and are known as the ‘Tango Routes’ or ‘T Routes’ for short.</p>
@@ -72,14 +72,14 @@ PRMS.
 <p><strong>T213</strong>: also connects SOTA to the Madrid FIR routing TAMEL and BERUX, forming more limited connections to the western edge of the Lisboa FIR and several southbound routes through Spain towards Tunisia. This Tango Route is bi-directional.</p>
 <p><strong>T16: </strong>connects SOTA to the Canaries, routing OMOKO and GONAN. This Tango Route is uni-directional, and can only be received by southbound flight</p>
 <p><strong>T13:</strong> sister to T16, routing OMOKO and NILAV. This Tango Route is uni-directional, and can only be received by northbound flight</p>
-<p><strong>T290: </strong>new as of 30th Jan 2020, connecting SOTA to the Madrid FIR, routing GELPO and ADVAT. This Tango Route is uni-directional and can only be received by southbound flight.</p>
+<p><strong>T290: </strong>introduced on 30th Jan 2020, connecting SOTA to the Madrid FIR, routing GELPO and ADVAT. This Tango Route is uni-directional and can only be received by southbound flight.</p>
 <p><i>Note: Expect to hear the waypoints for these routes individually read out in the clearance to reduce the chance of a misunderstanding.</i></p>
 <figure class="image image_resized" style="width:28.09%;"><img src="/diagrams/tango_routes.png">
   <figcaption>The Tango (T) Routes</figcaption>
 </figure>
 
 ## What about Concorde?
-<p>Even though the Concorde hasn't been seen in the real-world skies since 2003, pilots looking for a nostalgia kick might want to dust off their Concorde on the network. Therefore, the three legacy Concorde tracks remain available for use today on the network. Unlike regular NAT tracks, these tracks are static and did not change daily because the Concorde's high cruising altitude (between FL550 and FL600) meant that the aircraft flew above most weather systems that impact normal NAT track selection. Let's have a look at these routes.</p>
+<p>Even though the Concorde hasn't been seen in the real-world skies since 2003, pilots looking for a nostalgia kick might want to dust off their Concorde on the network. Therefore, the three legacy Concorde tracks remain available for use today on the network. Unlike regular NAT tracks, these tracks are static and did not change daily because the Concorde's high cruising altitude (roughly FL500 to FL600) meant that the aircraft flew above most weather systems that impact normal NAT track selection. Let's have a look at these routes.</p>
 <p><strong>Track SM (Sierra Mike)</strong> - Westbound Concorde flight<br><strong>Track SN (Sierra November) </strong>- Eastbound Concorde flight<br><strong>Track SO (Sierra Oscar)</strong> - Alternate overflow flight (used only when necessary)</p>
 <figure class="image image_resized" style="width:65.49%;"><img src="/img/concorde_routes.png">
   <figcaption>Diagram of the legacy Concorde routes.</figcaption>

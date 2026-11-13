@@ -34,11 +34,11 @@ You can see both a datalink and voice clearance format.
 
 The datalink format is as follows:
 
-* `CLX 1739 030125 NAT CLRNCE` Oceanic clearance at 1735Z, date 03/01/25, from NAT (bandbox EGGX/CZQO) oceanic controller.
+* `CLX 1739 030125 NAT CLRNCE` Oceanic clearance at 1739Z, date 03/01/25, from NAT (bandbox EGGX/CZQO) oceanic controller.
 * `KLM621 CLRD TO KATL VIA NEBIN` You're cleared to KATL via NEBIN, your entry waypoint.
 * `NAT E` your NAT track/random routeing.
 * `NEBIN 54/20 55/30 55/40 53/50 PELTU` The track routeing.
-* `FM NEBIN/1837 MNTN F350 M085` From NEBIN (estimating arrival at 10:33Z), maintain FL350, mach .83.
+* `FM NEBIN/1837 MNTN F350 M085` From NEBIN (estimating arrival at 18:37Z), maintain FL350, Mach .85.
 
 > **NOTE:** Changes from your initial request will appear with a `/` in front of them. Examples can be found in the above image. A reclearance will always appear with one change, so make sure to take note of what the new restriction is.
 
