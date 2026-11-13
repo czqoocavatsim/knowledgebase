@@ -16,6 +16,10 @@ dateCreated: 2020-09-11T03:38:36.738Z
 <p>On top of these operational characteristics, wind, airline requests and controller separation requirements play essential roles. Aircraft typically need to fly between a narrow level band (between FL310 and FL400) and will attempt to fly with the strongest tailwind (eastbound crossing) or will try to avoid the headwind (westbound crossing). All of these considerations prompt the need for a system of dynamic routes across the North Atlantic. This system is known as the Organised Track System, or OTS for short.</p>
 <p>Each day, the OTS is constructed with the cooperation of all relevant OACCs (Oceanic Area Control Centres) to ensure that the best possible routes are chosen for the conditions. The agreed OTS for the day is then forwarded through the ‘NAT track message’. The NAT track message details all of the agreed-upon North Atlantic routings for the flow and the day-time (westbound) OTS is typically published at around 2200z the evening before it takes effect, and the night-time (eastbound) OTS at around 1400z.</p>
 
+### Track letters and changeover periods
+<p>Tracks are named with a letter. The day-time (westbound) tracks are lettered from the north, so Track A is the most northerly, then B, C and so on southwards. The night-time (eastbound) tracks are lettered from the south, so Track Z is the most southerly, then Y, X and so on northwards. This is a quick way to tell which direction a track is flown.</p>
+<p>The westbound OTS is valid from 1130z to 1900z at 30W and the eastbound OTS from 0100z to 0800z at 30W. These times can be adjusted by Gander and Shanwick, so the NAT track message always states the actual validity times. Between the two flows (0801z to 1129z and 1901z to 0059z) the OTS is not in force and the levels you planned may not match what is available, so check with the oceanic controller if your level is important to you.</p>
+
 ## The NAT Track Message
 <p>Below is an example of a NAT track message, published on the 1st of May detailing the tracks valid for the 2nd of May.</p>
 <pre><code class="language-plaintext">011941 EGGXZOZX

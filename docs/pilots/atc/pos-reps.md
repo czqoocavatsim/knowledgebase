@@ -14,6 +14,7 @@ dateCreated: 2020-09-11T03:46:30.382Z
 <p>Previously, given the lack of radar coverage over the North Atlantic, controllers had to resort to other methods to work out aircraft position. Nowadays, with the widespread surveillance coverage provided by ADS-B and ADS-C surveillance technologies, the 'no-radar' problem has largely been solved in the real world. However, there are still many aircraft - especially on VATSIM that are not equipped with ADS-B or ADS-C equipment. This is where position reports come in.</p>
 <p>Many routes over the North Atlantic define designated ‘reporting points’; points at which a pilot must report their position. However, for routes without designated reporting points, then a report must be sent at every significant point, or every ten degrees of longitude, whichever is more often.</p>
 <p>If the estimate provided to ATC for the waypoint immediately following the current reporting point has changed by three minutes or more, a revised estimate must be transmitted to the appropriate controller as soon as possible. Pilots must always report to ATC when reaching new flight levels, and optionally when leaving the old flight level.</p>
+<p>Aircraft with working ADS-C do not make voice position reports, and a revised estimate is not needed from them either. Controllers can see where they are.</p>
 <h2>Contents of A Position Report</h2>
 <p>A position report requires the following information:</p>
 <ul>
@@ -22,6 +23,7 @@ dateCreated: 2020-09-11T03:46:30.382Z
   <li>The point directly after the current reporting point and the time estimate</li>
   <li>The point after that, commonly referred to as the ‘next’ point, no time estimate required</li>
 </ul>
+<p>Use the standard message type to start the call, so the controller knows what is coming. The types are: <strong>position report</strong>, <strong>position report and request clearance</strong>, <strong>request clearance</strong>, <strong>revised estimate</strong> and <strong>miscellaneous</strong>. Times are always four digits in UTC.</p>
 <p>For flights outside domestic route networks, the position is expressed in terms of latitude and longitude except when flying over named reporting points.&nbsp;<br>Example: "<i>five seven north, zero two zero west" (57N020W, or 5720N, etc.)</i></p>
 
 ## Tips &amp; Tricks

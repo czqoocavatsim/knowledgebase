@@ -18,6 +18,7 @@ dateCreated: 2020-09-11T03:44:47.128Z
 
 ## Can I choose any code
 <p>Not quite. The SELCAL system supports sixteen characters from the Latin alphabet (letters&nbsp;<strong>A&nbsp;</strong>through&nbsp;<strong>S</strong>, excluding&nbsp;<strong>I</strong>,&nbsp;<strong>N&nbsp;</strong>and&nbsp;<strong>O</strong>) and the characters are written/transmitted in alphabetical order as two ordered pairs of characters. For example, the code&nbsp;<strong>AB-CD&nbsp;</strong>is valid, as well as&nbsp;<strong>CD-AB</strong>, however,&nbsp;<strong>BA-CD&nbsp;</strong>and&nbsp;<strong>DC-BA</strong>&nbsp;are not. Each letter in any given code must be unique, so both&nbsp;<strong>AA-BC</strong>&nbsp;and&nbsp;<strong>AC-CD</strong>&nbsp;are invalid.</p>
+<p>In the real world, crews do a SELCAL check when they enter the oceanic area and must then keep a SELCAL watch (or a continuous HF watch) for as long as they are in it.</p>
 <h2>Can I use SELCAL on VATSIM?</h2>
 <p>SELCAL is simulated on VATSIM by all major pilot clients. Simply enter your SELCAL code and connect! On initial contact with ATC, you can request a ‘SELCAL check’ so that the controller knows that you are SELCAL-capable.</p>
 <blockquote>
