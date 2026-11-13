@@ -25,6 +25,7 @@ dateCreated: 2020-09-11T03:45:45.724Z
 <h3>How this differs from the real world</h3>
 <p>In the real world, crews first send a <strong>Request for Clearance (RCL)</strong> to the oceanic centre. The RCL gives the entry point, the estimate, the Mach number, the requested level and the highest acceptable level (&quot;MAX FL&quot;). It is <strong>not a clearance</strong>. NAT Doc 007 asks for it 90-60 minutes before entry for Gander and 90-30 minutes before entry for Shanwick, and by voice if the entry estimate is less than 30 minutes away. Any change to route, level or speed is then issued by the controller. Whether a separate oceanic clearance follows depends on the centre, and Shanwick still issues one.</p>
 <p>On VATSIM we simplify this. You make one request that combines the RCL and the clearance, and it should be made <strong>at least 30 minutes before</strong> the oceanic entry point, as described below. If a controller asks you to do it differently, follow the controller.</p>
+<p>You can now also send your RCL by data link, using your aircraft's oceanic clearance request page or a TELEX (see <a href="/pilots/cpdlc/">Hoppie's Usage</a>), or on <a href="https://nattrak.vatsim.net">nattrak.vatsim.net</a>. This only applies if the controller's details field says <strong>"Oceanic Clearance via CPDLC available"</strong> or <strong>"via nattrak.vatsim.net"</strong>. If it does not, use voice.</p>
 
 ## Further Information
 
