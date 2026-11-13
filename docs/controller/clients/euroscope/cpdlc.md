@@ -1,4 +1,8 @@
 # Topsky CPDLC
+
+!!! note
+    If you use vNAAATS, CPDLC is handled in the Flight Data Display instead. See [CPDLC in vNAAATS](/controller/clients/vnaaats/cpdlc/).
+
 ## Prerequisites
 1. For the use of CPDLC on the network, one requires a Hoppies acars account. [Registration](https://hoppie.nl/acars/system/register.html)
 
