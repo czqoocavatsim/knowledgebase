@@ -17,5 +17,3 @@ Thank you to the following staff members for their contributions:<br>
 <small>
 Andrew O, Chriss K, Gary T, Jamie K, Joshua M and Liesel D
 </small>
-
-<small>Last updated: 13 November 2026</small>
