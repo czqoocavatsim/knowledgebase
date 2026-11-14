@@ -30,9 +30,13 @@ dateCreated: 2020-09-11T03:40:59.990Z
 <ul>
   <li>Aircraft not capable of programming automatic offsets must fly their designated route on the centreline.</li>
   <li>Aircraft capable of automatic offset programming should randomly select between an offset or the centreline. To determine the best path to fly, a flight crew should use their appropriate equipment (radio, visual observations, TCAS/ACAS, GPWS) to determine which flight path is best.</li>
-  <li>AIrcraft capable of programming offsets in tenths of a nautical mile should do so, as it contributes further to collision mitigation.</li>
+  <li>Aircraft capable of programming offsets in tenths of a nautical mile should do so, as it contributes further to collision mitigation.</li>
   <li>No ATC clearances are required for this procedure and it not necessary for ATC to be notified.</li>
   <li>Voice position reports should be based on waypoints in the current ATC clearance, not the position of the offset</li>
+  <li>If your aircraft cannot offset in tenths of a nautical mile, fly the centreline, 1 NM right or 2 NM right.</li>
+  <li>An offset can be flown from reaching your cruising level until top of descent, but you must be back on the centreline before the oceanic exit point unless ATC tells you otherwise.</li>
+  <li>If you are bothered by wake turbulence, you can use the offset procedure to move out of it. Never offset more than 2 NM to the right, and the air-to-air frequency 123.450 can be used to coordinate with other aircraft nearby. The captain always has the final say.</li>
+  <li>SLOP must not be used below FL285 in the Reykjavik and Bodø OCAs.</li>
 </ul>
 
 ## Sources

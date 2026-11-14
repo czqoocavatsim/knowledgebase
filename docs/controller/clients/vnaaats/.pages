@@ -1,0 +1,8 @@
+title: vNAAATS
+nav:
+    - Overview and access: index.md
+    - Installing: install.md
+    - Using the Flight Data Display: fdd.md
+    - natTrak and RCL reminders: nattrak.md
+    - CPDLC in vNAAATS: cpdlc.md
+    - Problems and questions: troubleshooting.md

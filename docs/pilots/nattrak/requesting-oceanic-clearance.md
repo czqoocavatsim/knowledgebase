@@ -6,7 +6,7 @@ As with all [oceanic clearances](/pilots/atc/clearances), be sure to submit your
 ## Notes Flying Oceanic
 There are a few different things to take into account when flying Oceanic airspace:
 
-* Oceanic Controllers have ADS-B (Satalite Radar) capabilities, but they can not vector you. So you need to fly your route as cleared.
+* Oceanic Controllers have space-based ADS-B and ADS-C surveillance, but they can not vector you. So you need to fly your route as cleared.
 * Your Simulator Time must be set to the correct time. You need this in order to correctly provide your entry time into the OCA.
 
 ## Accessing the oceanic clearance request page
@@ -85,7 +85,7 @@ Here you enter the oceanic entry point (typically the first waypoint on your tra
 <img src="/pilots/img/nattrakclrpt4.png">
 </figure>
 
-Enter the current TMI (see [NAT Tracks](/basics/nats) for details). For Cross the Pond this may be different from the current real world one - check the menu bar on the top of the page for the current one.
+Enter the current TMI (see [NAT Tracks](/pilots/basics/nats/) for details). For Cross the Pond this may be different from the current real world one - check the menu bar on the top of the page for the current one.
 
 You can also enter free text if you wish. Use this for extra details or the like. 
 
@@ -93,7 +93,7 @@ You can also enter free text if you wish. Use this for extra details or the like
 
 ## What now?
 
-You should be presented with your message history page with your request details. Continue reading on [this page](/pilots/nattrak/receiving-clearance) for more details!
+You should be presented with your message history page with your request details. Continue reading on [this page](/pilots/nattrak/receiving-your-clearance/) for more details!
 
 ## Need more help?
 

@@ -22,6 +22,11 @@ dateCreated: 2020-09-11T03:45:45.724Z
 </ul>
 <p>These elements serve to provide the three basic elements of separation: lateral, longitudinal, and vertical as early as possible since the controllers are controlling procedural airspace without any radar coverage.</p>
 
+<h3>How this differs from the real world</h3>
+<p>In the real world, crews first send a <strong>Request for Clearance (RCL)</strong> to the oceanic centre. The RCL gives the entry point, the estimate, the Mach number, the requested level and the highest acceptable level (&quot;MAX FL&quot;). It is <strong>not a clearance</strong>. NAT Doc 007 asks for it 90-60 minutes before entry for Gander and 90-30 minutes before entry for Shanwick, and by voice if the entry estimate is less than 30 minutes away. Any change to route, level or speed is then issued by the controller. Whether a separate oceanic clearance follows depends on the centre, and Shanwick still issues one.</p>
+<p>On VATSIM we simplify this. You make one request that combines the RCL and the clearance, and it should be made <strong>at least 30 minutes before</strong> the oceanic entry point, as described below. If a controller asks you to do it differently, follow the controller.</p>
+<p>You can now also send your RCL by data link, using your aircraft's oceanic clearance request page or a TELEX (see <a href="/pilots/cpdlc/">Hoppie's Usage</a>), or on <a href="https://nattrak.vatsim.net">nattrak.vatsim.net</a>. This only applies if the controller's details field says <strong>"Oceanic Clearance via CPDLC available"</strong> or <strong>"via nattrak.vatsim.net"</strong>. If it does not, use voice.</p>
+
 ## Further Information
 
 <p>Oceanic Clearances are required for all flights within the Oceanic Controlled Airspace at or above FL55 (5500 ft). To assist the Oceanic Controllers in planning clearances efficiently and using airspace optimally, pilots requesting an oceanic clearance should notify the clearance controller of their highest possible altitude whenever possible at the oceanic boundary. Considering that the climb to the assigned oceanic flight level must be achieved before entering the oceanic airspace, this should generally be done while the aircraft is within radar controlled airspace such as Shannon or Moncton/Gander.</p>
@@ -44,20 +49,20 @@ dateCreated: 2020-09-11T03:45:45.724Z
   <li>Requested NAT Track</li>
   <li>Estimate for the NAT / Oceanic Airspace entry in ZULU time</li>
   <li>Requested Mach number</li>
-  <li>Requested flight level, and maximum flight level if able ('When Able Higher' report)</li>
+  <li>Requested flight level, and the maximum (highest) flight level you can accept at the entry point (the real-world oceanic clearance request calls this &quot;MAX FL&quot;)</li>
 </ul>
 <p>With all their information collated, BAW123 may now go ahead and request their oceanic clearance:</p>
 <blockquote>
-  <p><strong>BAW123: </strong>Gander Radio, BAW123 request Oceanic Clearance to London Heathrow via Track Alpha. Estimating ALLRY at 1240 zulu. Requesting Flight Level 350, able Flight Level 370. Mach .80</p>
+  <p><strong>BAW123: </strong>Gander Radio, BAW123 request Oceanic Clearance to London Heathrow via Track Yankee. Estimating ALLRY at 1240 zulu. Requesting Flight Level 350, able Flight Level 370. Mach .80</p>
 </blockquote>
 <p>The controller will acknowledge the pilot's request and will tell BAW123 to standby.&nbsp;</p>
 <p>When the controller is ready, the clearance is issued:</p>
 <blockquote>
-  <p><strong>CZQO_CTR</strong>: Gander Oceanic clears BAW123 London Heathrow via ALLRY, track Alpha. From ALLRY maintain Flight Level 350, Mach .80</p>
+  <p><strong>CZQO_CTR</strong>: Gander Oceanic clears BAW123 London Heathrow via ALLRY, track Yankee. From ALLRY maintain Flight Level 350, Mach .80</p>
 </blockquote>
-<p>BAW123 must, in the readback of their clearance, confirm that their version of the NAT track message is up-to-date by including the TMI (see <a href="https://knowledgebase.ganderoceanic.com/en/basics/nats">North Atlantic Tracks</a>):</p>
+<p>BAW123 must, in the readback of their clearance, confirm that their version of the NAT track message is up-to-date by including the TMI (see <a href="/pilots/basics/nats/">North Atlantic Tracks</a>):</p>
 <blockquote>
-  <p><strong>BAW123: </strong>BAW123 is cleared to London Heathrow, via NAT track Alpha, TMI 115. From ALLRY maintain Flight Level 350, Mach .80</p>
+  <p><strong>BAW123: </strong>BAW123 is cleared to London Heathrow, via NAT track Yankee, TMI 115. From ALLRY maintain Flight Level 350, Mach .80</p>
 </blockquote>
 <p>When BAW123 has made a correct readback, the controller will confirm that the readback was correct and will instruct the pilot to “return to domestic frequency” or to “return to previous frequency”.&nbsp;</p>
 <blockquote>
@@ -89,7 +94,7 @@ dateCreated: 2020-09-11T03:45:45.724Z
   <p><strong>ACA865:</strong>&nbsp;ACA865 is cleared to Toronto via MALOT 54N020W 56N030W 57N040W 56N050W JANJO, from MALOT maintain Flight Level 350, Mach .80</p>
   <p><strong>EGGX_CTR:&nbsp;</strong>ACA865, read-back correct</p>
 </blockquote>
-<p>(<strong>Note:</strong> coordinates shall be spoken as "5 4 north 0 2 0 west". Times shall be spoken as "1 1 3 1", and not "eleven thirty-one")</p>
+<p>(<strong>Note:</strong> coordinates are spoken in the same way as above, "five four north, zero two zero west", and times digit by digit, "one one three one", not "eleven thirty-one")</p>
 <p><strong>Note: a full read-back of the clearance is always required.</strong></p>
 
 ### Clearance issued with an amendment
@@ -113,3 +118,8 @@ dateCreated: 2020-09-11T03:45:45.724Z
 
 ## Sources
 <p>NAT Document 007<br>Oceanic Control Document - Version 1.0</p>
+
+## After you enter oceanic airspace
+
+<h3>Squawk 2000</h3>
+<p>Unless ATC tells you otherwise, keep the last transponder code you were assigned for <strong>10 minutes after passing the oceanic entry point</strong>, then squawk <strong>2000</strong>. Changing to 2000 matters because your original domestic code may not be recognised by the next domestic radar service when you leave oceanic airspace. Reykjavik is the exception, because it provides a radar service in part of its area. The same applies within the radar area around Bermuda. In both cases, keep your assigned code until ATC tells you to change it.</p>

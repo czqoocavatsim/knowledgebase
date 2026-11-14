@@ -32,7 +32,7 @@ dateCreated: 2020-09-11T03:37:30.150Z
 
 ### Shanwick OCA
 
-<p>The Shanwick OCA stretches another enormous 545 nautical miles, bordering Gander at 30 degrees west, Santa Maria at 45 degrees north and Reykjavik at 61 degrees north. Like Gander, Shanwick also borders several domestic FIRs: Scottish, Shannon, London, Brest and Madrid. Airspace is Class A above 5,500 ft and below, Class G.</p>
+<p>The Shanwick OCA stretches another enormous 545 nautical miles, bordering Gander at 30 degrees west, Santa Maria at 45 degrees north and Reykjavik at 61 degrees north. Like Gander, Shanwick also borders several domestic FIRs: Scottish, Shannon, London, Brest and Madrid. Airspace is Class A above 5,500 ft and Class G below.</p>
 <figure class="image image_resized" style="width:55.49%;"><img src="/img/shanwick.png">
   <figcaption>Airspace map of the Shanwick OCA</figcaption>
 </figure>
@@ -42,5 +42,8 @@ dateCreated: 2020-09-11T03:37:30.150Z
   <li><strong>SOTA (Shannon Oceanic Transition Area)</strong>: like NOTA, delegated to Shannon Control, providing a domestic (radar) service</li>
   <li><strong>BOTA (Brest Oceanic Transition Area)</strong>: delegated to Brest Control, providing a domestic (radar) service</li>
 </ul>
+<h3>Airspace requirements in the real world</h3>
+<p>Most of the North Atlantic between FL285 and FL420 is NAT HLA (High Level Airspace), where the aircraft needs to be approved for the navigation accuracy required. In the same part of the ocean, flights between FL290 and FL410 inclusive must also be equipped with and operating FANS 1/A CPDLC and ADS-C. The Tango routes T9 and T290 also require ADS-B. There are exceptions, for example north of 80N and where there is radar or ADS-B coverage with VHF voice, so refer to the NAT Doc 007 if you need more detail.</p>
+<p>None of this is enforced on VATSIM, but it explains why oceanic controllers expect most aircraft to be on CPDLC or ADS-C and are used to receiving position reports only from the few that are not.</p>
 <h3>Sources</h3>
 <p>NAT Document 007<br>Oceanic Control Document - Version 1.0</p>
